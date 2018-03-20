@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
-// import { Route, Redirect } from 'react-router-dom'
-//
-// import Test from './views/test/test'
+import { Route, Switch } from 'react-router-dom'
+
+import Test from './container/test/test'
+import Login from './container/login/login'
+import Forget from './container/forget/forget'
+import Register from './container/register/register'
+
+import AuthRoute from './component/authroute/authroute'
+import Dashboard from './component/dashboard/dashboard'
 
 import './App.styl'
 
@@ -25,7 +31,14 @@ class App extends Component {
       ? <h2>页面出错了</h2>
       : (
         <div>
-          App
+          <AuthRoute />
+          <Switch>
+            <Route path='/test' component={Test} />
+            <Route path='/login' component={Login} />
+            <Route path='/forget' component={Forget} />
+            <Route path='/register' component={Register} />
+            <Route component={Dashboard} />
+          </Switch>
         </div>
       )
   }
