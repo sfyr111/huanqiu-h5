@@ -28,3 +28,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.slide-to-left-enter
+  transform translateX(100%)
+
+.slide-to-left-enter.slide-to-left-enter-active
+  transform translateX(0)
+  transition: all 250ms linear
+
+.slide-to-left-leave
+  transform translateX(0)
+
+.slide-to-left-leave.slide-to-left-leave-active
+  transform translateX(100%)
+  transition: all 250ms linear
