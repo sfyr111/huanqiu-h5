@@ -4,7 +4,7 @@ class Job extends React.Component {
 
   render() {
     return (
-      <h1>Job</h1>
+      <div id="job" className="main"></div>
     )
   }
 }

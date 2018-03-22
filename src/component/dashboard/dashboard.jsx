@@ -8,10 +8,11 @@ import Product from '../product/product'
 import Advisory from '../advisory/advisory'
 import NavList from '../navList/navList'
 
+import './dashboard.styl'
+
 class Dashboard extends React.Component {
 
   render() {
-    const { pathname } = this.props.location
     const navList = [
       {
         path: '/product',

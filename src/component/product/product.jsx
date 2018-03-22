@@ -2,8 +2,10 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
-import Jinku from '../jinku/jinku'
-import Jindian from '../jindian/jindian'
+import Zhitongche from '../zhitongche/zhitongche'
+import Baike from '../baike/baike'
+import Wuyou from '../wuyou/wuyou'
+import Paimai from '../paimai/paimai'
 
 import './product.styl'
 
@@ -15,23 +17,28 @@ class Product extends React.Component {
   render() {
     const navList = [
       {
-        path: '/product/jinku',
-        component: Jinku
+        path: '/product/zhitongche',
+        component: Zhitongche
       },
       {
-        path: '/product/jindian',
-        component: Jindian
+        path: '/product/baike',
+        component: Baike
+      },
+      {
+        path: '/product/wuyou',
+        component: Wuyou
+      },
+      {
+        path: '/product/paimai',
+        component: Paimai
       }
     ]
     const { pathname } = this.props.location
     const page = navList.find(v => v.path === pathname)
 
     return (
-      <div id="product">
+      <div id="product" className='main'>
         <div className="product-content">
-          <h1>Product</h1>
-          <button onClick={() => this.props.history.push('/product/jinku')}>jink</button>
-          <button onClick={() => this.props.history.push('/product/jindian')}>jindian</button>
           <ReactCSSTransitionGroup
             component='div'
             transitionName="slide-to-left"

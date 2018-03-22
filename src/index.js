@@ -23,8 +23,8 @@ const store = createStore(reducers, compose(
 ))
 
 const root = document.getElementById('root')
-root.style.position = 'relative'
-root.style.height = '100%'
+// root.style.position = 'relative'
+// root.style.height = '100%'
 // root.style.display = 'flex'
 // root.style.flexDirection = 'column'
 

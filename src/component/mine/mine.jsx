@@ -4,7 +4,7 @@ class Mine extends React.Component {
 
   render() {
     return (
-      <h1>Mine</h1>
+      <div id="mine" className="main"></div>
     )
   }
 }
