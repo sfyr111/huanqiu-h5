@@ -54,7 +54,7 @@ class Dashboard extends React.Component {
         <Route path="/" render={() => <Redirect to="/product" />} exact key="/" />
         {navList.map(item => <Route key={item.path} path={item.path} component={item.component} />)}
         <Route key='/test' path='/test' component={Test} />
-        <NavList data={navList}></NavList>
+        {page ? <NavList data={navList}></NavList> : null}
       </div>
     )
   }
