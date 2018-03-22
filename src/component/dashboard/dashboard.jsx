@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Redirect } from 'react-router-dom'
+import { NavBar } from 'antd-mobile'
 import Test from '../../container/test/test'
 
 import Job from '../job/job'
@@ -41,13 +42,18 @@ class Dashboard extends React.Component {
         icon: 'mine',
         i: 'user',
         component: Mine
-      },
+      }
     ]
+
+    const { pathname } = this.props.location
+    const page = navList.find(item => item.path === pathname)
 
     return (
       <div id='dashboard'>
+        <NavBar mode="light">{page ? page.text : ''}</NavBar>
         <Route path="/" render={() => <Redirect to="/product" />} exact key="/" />
         {navList.map(item => <Route key={item.path} path={item.path} component={item.component} />)}
+        <Route key='/test' path='/test' component={Test} />
         <NavList data={navList}></NavList>
       </div>
     )

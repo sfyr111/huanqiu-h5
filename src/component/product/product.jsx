@@ -39,6 +39,14 @@ class Product extends React.Component {
     return (
       <div id="product" className='main'>
         <div className="product-content">
+          <div className="background"></div>
+          <ul className="product-list">
+            {navList.map(item => (
+              <li onClick={() => this.props.history.push(item.path)}>
+                <div></div>
+              </li>
+            ))}
+          </ul>
           <ReactCSSTransitionGroup
             component='div'
             transitionName="slide-to-left"
