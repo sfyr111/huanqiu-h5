@@ -65,6 +65,7 @@
     "qs": "^6.5.1",
     "query-string": "^5.0.1",
     "randomcolor": "^0.5.3",
+    "rc-form": "^2.1.7",
     "rc-queue-anim": "^1.4.1",
     "react": "^16.0.0",
     "react-addons-css-transition-group": "^15.6.2",
