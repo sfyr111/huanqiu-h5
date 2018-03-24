@@ -2,10 +2,12 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
-import Zhitongche from '../zhitongche/zhitongche'
-import Baike from '../baike/baike'
-import Wuyou from '../wuyou/wuyou'
-import Paimai from '../paimai/paimai'
+import Wiki from '../wiki/wiki'
+import Free from '../free/free'
+import Auction from '../auction/auction'
+import Operation from '../operation/operation'
+import Union from '../union/union'
+import Plan from '../plan/plan'
 
 import './product.styl'
 
@@ -17,20 +19,28 @@ class Product extends React.Component {
   render() {
     const navList = [
       {
-        path: '/product/zhitongche',
-        component: Zhitongche
+        path: '/product/wiki',
+        component: Wiki
       },
       {
-        path: '/product/baike',
-        component: Baike
+        path: '/product/free',
+        component: Free
       },
       {
-        path: '/product/wuyou',
-        component: Wuyou
+        path: '/product/auction',
+        component: Auction
       },
       {
-        path: '/product/paimai',
-        component: Paimai
+        path: '/product/operation',
+        component: Operation
+      },
+      {
+        path: '/product/union',
+        component: Union
+      },
+      {
+        path: '/product/plan',
+        component: Plan
       }
     ]
     const { pathname } = this.props.location
