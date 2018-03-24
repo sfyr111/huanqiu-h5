@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3cba74-10ff-40a5-89a1-f88802e36df5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/plan.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/union/union.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/wiki/wiki.styl" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/baike/baike.styl" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/component/baike/baike.jsx" afterPath="$PROJECT_DIR$/src/component/wiki/wiki.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/component/paimai/paimai.jsx" afterPath="$PROJECT_DIR$/src/component/auction/auction.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/component/wuyou/wuyou.jsx" afterPath="$PROJECT_DIR$/src/component/free/free.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/component/zhitongche/zhitongche.jsx" afterPath="$PROJECT_DIR$/src/component/operation/operation.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/js/util.js" afterPath="$PROJECT_DIR$/src/common/js/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/advisory/advisory.styl" afterPath="$PROJECT_DIR$/src/component/advisory/advisory.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/dashboard/dashboard.jsx" afterPath="$PROJECT_DIR$/src/component/dashboard/dashboard.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/advisory/advisory.jsx" afterPath="$PROJECT_DIR$/src/component/advisory/advisory.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/job/job.jsx" afterPath="$PROJECT_DIR$/src/component/job/job.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/mine/mine.jsx" afterPath="$PROJECT_DIR$/src/component/mine/mine.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/product.jsx" afterPath="$PROJECT_DIR$/src/component/product/product.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/product.styl" afterPath="$PROJECT_DIR$/src/component/product/product.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/forget/forget.jsx" afterPath="$PROJECT_DIR$/src/container/forget/forget.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/login/login.jsx" afterPath="$PROJECT_DIR$/src/container/login/login.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,26 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="269">
+              <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plan.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/plan/plan.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <caret line="6" column="109" lean-forward="false" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,24 +94,17 @@
         <option value="$PROJECT_DIR$/src/component/wuyou/wuyou.jsx" />
         <option value="$PROJECT_DIR$/src/component/paimai/paimai.jsx" />
         <option value="$PROJECT_DIR$/src/common/stylus/base.styl" />
-        <option value="$PROJECT_DIR$/src/component/product/product.styl" />
         <option value="$PROJECT_DIR$/src/component/dashboard/dashboard.styl" />
         <option value="$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx" />
-        <option value="$PROJECT_DIR$/src/component/advisory/advisory.jsx" />
-        <option value="$PROJECT_DIR$/src/component/job/job.jsx" />
         <option value="$PROJECT_DIR$/src/component/job/job.styl" />
         <option value="$PROJECT_DIR$/src/component/mine/mine.styl" />
-        <option value="$PROJECT_DIR$/src/component/mine/mine.jsx" />
         <option value="$PROJECT_DIR$/src/container/login/login.styl" />
         <option value="$PROJECT_DIR$/src/container/forget/forget.styl" />
-        <option value="$PROJECT_DIR$/src/container/forget/forget.jsx" />
-        <option value="$PROJECT_DIR$/src/container/login/login.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/common/js/util.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/component/dashboard/dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/component/advisory/advisory.styl" />
-        <option value="$PROJECT_DIR$/src/component/product/product.jsx" />
         <option value="$PROJECT_DIR$/src/component/wiki/baike.styl" />
         <option value="$PROJECT_DIR$/src/component/wiki/wiki.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/free.jsx" />
@@ -138,6 +112,14 @@
         <option value="$PROJECT_DIR$/src/component/operation/operation.jsx" />
         <option value="$PROJECT_DIR$/src/component/union/union.jsx" />
         <option value="$PROJECT_DIR$/src/component/plan/plan.jsx" />
+        <option value="$PROJECT_DIR$/src/component/product/product.styl" />
+        <option value="$PROJECT_DIR$/src/component/wechat/wechat.jsx" />
+        <option value="$PROJECT_DIR$/src/component/advisory/advisory.jsx" />
+        <option value="$PROJECT_DIR$/src/component/mine/mine.jsx" />
+        <option value="$PROJECT_DIR$/src/component/job/job.jsx" />
+        <option value="$PROJECT_DIR$/src/container/forget/forget.jsx" />
+        <option value="$PROJECT_DIR$/src/container/login/login.jsx" />
+        <option value="$PROJECT_DIR$/src/component/product/product.jsx" />
       </list>
     </option>
   </component>
@@ -287,6 +269,13 @@
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="mine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="plan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,12 +374,12 @@
       <workItem from="1521648782610" duration="829000" />
       <workItem from="1521698579263" duration="18899000" />
       <workItem from="1521802948895" duration="8266000" />
-      <workItem from="1521871307587" duration="4827000" />
+      <workItem from="1521871307587" duration="6894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54124000" />
+    <option name="totallyTimeSpent" value="56191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="551" y="23" width="1129" height="952" extended-state="0" />
@@ -428,13 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/stylus/reset.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react-router-redux/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -593,13 +575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/mine/mine.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,14 +593,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/product/product.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,16 +618,6 @@
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/login/login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,14 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/job/job.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/advisory/advisory.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -712,28 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/advisory/advisory.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/dashboard/dashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/forget/forget.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
@@ -745,7 +677,7 @@
         <state relative-caret-position="379">
           <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,16 +696,6 @@
           <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <caret line="6" column="109" lean-forward="false" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/auction/auction.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <caret line="6" column="106" lean-forward="false" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -798,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/wiki/wiki.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -823,6 +735,86 @@
           <caret line="6" column="109" lean-forward="false" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/wechat/wechat.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/auction/auction.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="6" column="106" lean-forward="false" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/advisory/advisory.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/mine/mine.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/forget/forget.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/job/job.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/login/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

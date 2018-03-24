@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { WeixinTitle } from 'react-weixin-title'
 
 import Wiki from '../wiki/wiki'
 import Free from '../free/free'
@@ -47,26 +48,28 @@ class Product extends React.Component {
     const page = navList.find(v => v.path === pathname)
 
     return (
-      <div id="product" className='main'>
-        <div className="product-content">
-          <div className="background"></div>
-          <ul className="product-list">
-            {navList.map(item => (
-              <li onClick={() => this.props.history.push(item.path)}>
-                <div></div>
-              </li>
-            ))}
-          </ul>
-          <ReactCSSTransitionGroup
-            component='div'
-            transitionName="slide-to-left"
-            transitionEnterTimeout={300}
-            transitionLeaveTimeout={300}
-          >
-            { page ? <Route location={this.props.location} key={this.props.location.pathname} path={page.path} component={page.component} /> : null}
-          </ReactCSSTransitionGroup>
+      <WeixinTitle title='产品' src=''>
+        <div id="product" className='main'>
+          <div className="product-content">
+            <div className="background"></div>
+            <ul className="product-list">
+              {navList.map((item, index) => (
+                <li key={index} onClick={() => this.props.history.push(item.path)}>
+                  <div></div>
+                </li>
+              ))}
+            </ul>
+            <ReactCSSTransitionGroup
+              component='div'
+              transitionName="slide-to-left"
+              transitionEnterTimeout={300}
+              transitionLeaveTimeout={300}
+            >
+              { page ? <Route location={this.props.location} key={this.props.location.pathname} path={page.path} component={page.component} /> : null}
+            </ReactCSSTransitionGroup>
+          </div>
         </div>
-      </div>
+      </WeixinTitle>
     )
   }
 }
