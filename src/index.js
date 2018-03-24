@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose } from 'redux'
+import persistState from 'redux-localstorage'
 
 import createHistory from 'history/createHashHistory'
 import { ConnectedRouter, routerMiddleware, push } from 'react-router-redux'
@@ -19,14 +20,11 @@ const middleware = routerMiddleware(history)
 
 const store = createStore(reducers, compose(
   applyMiddleware(thunk, middleware),
+  persistState(),
   window.devToolsExtension ? window.devToolsExtension() : (f) => f,
 ))
 
 const root = document.getElementById('root')
-// root.style.position = 'relative'
-// root.style.height = '100%'
-// root.style.display = 'flex'
-// root.style.flexDirection = 'column'
 
 ReactDOM.render(
   (
