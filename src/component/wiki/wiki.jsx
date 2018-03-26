@@ -39,9 +39,6 @@ class Wiki extends React.Component {
     const { pathname } = this.props.location
     const page = navList.find(v => pathname.indexOf(v.path) > -1)
 
-    console.log(pathname)
-    console.log(page)
-
     return (
       <WeixinTitle title='智金百科' src=''>
         <div id="wiki" style={{ background: '#f5f5f5', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>

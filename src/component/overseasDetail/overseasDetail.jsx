@@ -8,7 +8,7 @@ class OverseasDetail extends React.Component {
       <WeixinTitle title='案例详情' src=''>
         <div id="overseasDetail" style={{ backgroundColor: '#fff', zIndex: 100, position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
           <div className="overseasDetail-content">
-            overseasDetail
+            OverseasDetail 富文本
           </div>
         </div>
       </WeixinTitle>
