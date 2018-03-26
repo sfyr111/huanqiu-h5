@@ -29,7 +29,8 @@ const root = document.getElementById('root')
 ReactDOM.render(
   (
     <Provider store={store}>
-      <ConnectedRouter hashType="noslash" history={history}>
+      {/*<ConnectedRouter hashType="noslash" history={history}>*/}
+      <ConnectedRouter history={history}>
         <App />
       </ConnectedRouter>
     </Provider>

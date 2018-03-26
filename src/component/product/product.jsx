@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { CSSTransitionGroup } from 'react-transition-group'
 import { WeixinTitle } from 'react-weixin-title'
 
 import Wiki from '../wiki/wiki'
@@ -20,32 +20,32 @@ class Product extends React.Component {
   render() {
     const navList = [
       {
-        path: '/product/wiki',
+        path: '/product/wiki', // 智金百科
         component: Wiki
       },
       {
-        path: '/product/free',
+        path: '/product/free', // 智金无忧
         component: Free
       },
       {
-        path: '/product/auction',
+        path: '/product/auction', // 智金拍卖
         component: Auction
       },
       {
-        path: '/product/operation',
+        path: '/product/operation', // 智金运营
         component: Operation
       },
       {
-        path: '/product/union',
+        path: '/product/union', // 智金联盟
         component: Union
       },
       {
-        path: '/product/plan',
+        path: '/product/plan', // 智金策划
         component: Plan
       }
     ]
     const { pathname } = this.props.location
-    const page = navList.find(v => v.path === pathname)
+    const page = navList.find(v => pathname.indexOf(v.path) > -1)
 
     return (
       <WeixinTitle title='产品' src=''>
@@ -59,14 +59,14 @@ class Product extends React.Component {
                 </li>
               ))}
             </ul>
-            <ReactCSSTransitionGroup
-              component='div'
-              transitionName="slide-to-left"
-              transitionEnterTimeout={300}
-              transitionLeaveTimeout={300}
-            >
+            {/*<CSSTransitionGroup*/}
+              {/*component='div'*/}
+              {/*transitionName="slide-to-left"*/}
+              {/*transitionEnterTimeout={300}*/}
+              {/*transitionLeaveTimeout={300}*/}
+            {/*>*/}
               { page ? <Route location={this.props.location} key={this.props.location.pathname} path={page.path} component={page.component} /> : null}
-            </ReactCSSTransitionGroup>
+            {/*</CSSTransitionGroup>*/}
           </div>
         </div>
       </WeixinTitle>

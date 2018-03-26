@@ -19,6 +19,7 @@
     "@types/react-router": "^4.0.19",
     "@types/react-router-dom": "^4.2.3",
     "@types/react-router-redux": "^5.0.12",
+    "@types/react-transition-group": "^2.0.7",
     "@types/webpack": "^3.0.13",
     "@types/webpack-dev-server": "^2.9.0",
     "@types/whatwg-fetch": "0.0.33",
@@ -75,6 +76,7 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
+    "react-transition-group": "^1.2.1",
     "react-weixin-title": "^1.0.2",
     "redux": "^3.7.2",
     "redux-localstorage": "^0.4.1",
@@ -149,7 +151,11 @@
     ]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/href-no-hash": "off",
+      "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
+    }
   },
   "devDependencies": {
     "@types/stylus": "^0.48.28",

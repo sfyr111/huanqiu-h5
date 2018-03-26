@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import { SearchBar } from 'antd-mobile'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { CSSTransitionGroup } from 'react-transition-group'
 import { WeixinTitle } from 'react-weixin-title'
 
 import AdvisoryDetail from '../advisory-detail/advisory-detail'
@@ -49,14 +49,14 @@ class Advisory extends React.Component {
                 ))}
               </ul>
             </div>
-            <ReactCSSTransitionGroup
+            <CSSTransitionGroup
               component='div'
               transitionName="slide-to-left"
               transitionEnterTimeout={300}
               transitionLeaveTimeout={300}
             >
               {!pathname.endsWith('/advisory') ? <Route key='detail' location={this.props.location} path='/advisory/:id' component={AdvisoryDetail} /> : null}
-            </ReactCSSTransitionGroup>
+            </CSSTransitionGroup>
           </div>
         </div>
       </WeixinTitle>
