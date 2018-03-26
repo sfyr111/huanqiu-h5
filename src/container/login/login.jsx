@@ -30,6 +30,8 @@ class Login extends React.Component {
                   <Tabs
                     tabs={tabs}
                     initialPage={0}
+                    animated={false}
+                    useOnPan={false}
                   >
                     <section>
                       <WhiteSpace size='xl' />
