@@ -46,7 +46,7 @@ class Forget extends React.Component {
                           placeholder="输入验证码"
                         >
                           <img src={require('./img/验证码@2x.png')} alt=""/>
-                          <Button style={{ position: 'absolute', right: 0, top: '0.16rem' }} size='small' type='ghost'>获取验证码</Button>
+                          <Button style={{ position: 'absolute', right: 0, top: '0.16rem', color: '#f3b439' }} size='small'>获取验证码</Button>
                         </InputItem>
                         <InputItem
                           {...getFieldProps('password')}

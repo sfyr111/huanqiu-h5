@@ -17,13 +17,17 @@ class NavLink extends React.Component {
     const { pathname } = this.props.location
 
     return (
-      <TabBar>
+      <TabBar
+        tintColor='#f1b347'
+        unselectedTintColor='#fff'
+        barTintColor='#262626'
+      >
         {navList.map(v => (
           <TabBar.Item
             key={v.path}
             title={v.text}
-            icon={require(`./img/${v.i}.png`)}
-            selectedIcon={require(`./img/${v.i}-active.png`)}
+            icon={require(`./img/${v.icon}@2x.png`)}
+            selectedIcon={require(`./img/${v.icon}选中@2x.png`)}
             selected={pathname.indexOf(v.path) > -1}
             onPress={() => this.props.history.push(v.path)}
           />

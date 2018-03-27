@@ -17,29 +17,25 @@ class Dashboard extends React.Component {
       {
         path: '/product',
         text: '产品',
-        icon: 'product',
-        i: 'boss',
+        icon: '产品',
         component: Product
       },
       {
         path: '/advisory',
-        text: '咨询',
-        icon: 'advisory',
-        i: 'msg',
+        text: '资讯',
+        icon: '资讯',
         component: Advisory
       },
       {
         path: '/job',
         text: '招聘',
-        icon: 'job',
-        i: 'job',
+        icon: '招聘',
         component: Job
       },
       {
         path: '/mine',
         text: '我的',
-        icon: 'mine',
-        i: 'user',
+        icon: '我的',
         component: Mine
       }
     ]

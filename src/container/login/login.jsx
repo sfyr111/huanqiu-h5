@@ -85,7 +85,7 @@ class Login extends React.Component {
                           placeholder="输入验证码"
                         >
                           <img src={require('./img/验证码@2x.png')} alt=""/>
-                          <Button style={{ position: 'absolute', right: 0, top: '0.16rem' }} size='small' type='ghost'>获取验证码</Button>
+                          <Button style={{ position: 'absolute', right: 0, top: '0.16rem', color: '#f3b439' }} size='small'>获取验证码</Button>
                         </InputItem>
                       </List>
                       <WhiteSpace size='xl' />
@@ -94,7 +94,7 @@ class Login extends React.Component {
                       <WhiteSpace size='xl' />
                       <section style={{ textAlign: 'center' }}>
                         <p style={{ fontSize: '12px', color: '#333' }}>注册即表示同意</p>
-                        <span style={{ fontSize: '12px', color: '#5fa9ff' }}>《寰球智金-紫金知识产权国际合作平台用户注册协议》</span>
+                        <span style={{ fontSize: '12px', color: '#5fa9ff' }} onClick={() => this.props.history.push('/protocol')}>《寰球智金-紫金知识产权国际合作平台用户注册协议》</span>
                       </section>
                     </section>
                   </Tabs>

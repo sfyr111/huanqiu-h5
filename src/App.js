@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import Test from './container/test/test'
 import Login from './container/login/login'
 import Forget from './container/forget/forget'
-import Register from './container/register/register'
+import Protocol from './container/protocol/protocol'
 
 import AuthRoute from './component/authroute/authroute'
 import Dashboard from './component/dashboard/dashboard'
@@ -36,7 +36,7 @@ class App extends Component {
             <Route path='/test' component={Test} />
             <Route path='/login' component={Login} />
             <Route path='/forget' component={Forget} />
-            <Route path='/register' component={Register} />
+            <Route path='/protocol' component={Protocol} />
             <Route component={Dashboard} />
           </Switch>
         </div>

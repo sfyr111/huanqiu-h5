@@ -14,7 +14,7 @@ class Mine extends React.Component {
             <div className="background">
               <section className="avatar">
                 <img src="http://temp.im/110x110/FF2D55/000" />
-                <span>姓名</span>
+                <span onClick={() => this.props.history.push('/login')}>姓名</span>
               </section>
             </div>
             <Card full={true}>
