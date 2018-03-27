@@ -11,7 +11,7 @@ class OperationFund extends React.Component {
     return (
       <WeixinTitle title='运营基金' src=''>
         <div style={{ background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
-          <main>
+          <main className='text-app'>
             <h1>
 
             紫萌青少年创新发展基金

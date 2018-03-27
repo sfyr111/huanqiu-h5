@@ -10,7 +10,7 @@ class Pct extends React.Component {
     return (
       <WeixinTitle title='PCT支援' src=''>
         <div style={{ height: '100vh', overflow: 'auto', background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
-          <main>
+          <main className='text-app'>
             <h1>PCT申请免费支援服务</h1>
             <p>
               《专利合作条约》（PCT）是1970年在华盛顿签订、1978年生效的一个多边国际条约。它是申请人在PCT缔约国中寻求专利国际保护的主要工具，也是关于多边工作共享和合作的典范。

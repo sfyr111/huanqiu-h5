@@ -11,7 +11,7 @@ class Power extends React.Component {
     return (
       <WeixinTitle title='维权支援' src=''>
         <div style={{ height: '100vh', overflow: 'auto', background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
-          <main>
+          <main className='text-app'>
             <h1>
 
             维权支援
