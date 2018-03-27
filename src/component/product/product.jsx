@@ -21,27 +21,33 @@ class Product extends React.Component {
     const navList = [
       {
         path: '/product/wiki', // 智金百科
-        component: Wiki
+        component: Wiki,
+        title: '智金百科'
       },
       {
         path: '/product/free', // 智金无忧
-        component: Free
+        component: Free,
+        title: '智金无忧'
       },
       {
         path: '/product/auction', // 智金拍卖
-        component: Auction
+        component: Auction,
+        title: '智金拍卖'
       },
       {
         path: '/product/operation', // 智金运营
-        component: Operation
+        component: Operation,
+        title: '智金运营'
       },
       {
         path: '/product/union', // 智金联盟
-        component: Union
+        component: Union,
+        title: '智金联盟'
       },
       {
         path: '/product/plan', // 智金策划
-        component: Plan
+        component: Plan,
+        title: '智金策划'
       }
     ]
     const { pathname } = this.props.location
@@ -55,7 +61,7 @@ class Product extends React.Component {
             <ul className="product-list">
               {navList.map((item, index) => (
                 <li key={index} onClick={() => this.props.history.push(item.path)}>
-                  <div></div>
+                  <div><span style={{ color: 'red' }}>{item.title}</span></div>
                 </li>
               ))}
             </ul>
