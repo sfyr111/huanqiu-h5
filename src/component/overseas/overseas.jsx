@@ -30,6 +30,8 @@ class Overseas extends React.Component {
               tabs={tabs}
               animated={false}
               swipeable={false}
+              tabBarActiveTextColor='#f3b439'
+              tabBarUnderlineStyle={{ border: '0.02667rem #f3b439 solid' }}
             >
               {/*美洲*/}
               <section className="tab-item">

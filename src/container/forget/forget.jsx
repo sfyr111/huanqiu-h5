@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tabs, NavBar, WingBlank, WhiteSpace, List, InputItem, Button, Icon } from 'antd-mobile'
+import { Tabs, WingBlank, WhiteSpace, List, InputItem, Button, Icon } from 'antd-mobile'
 import { createForm } from 'rc-form'
 import { WeixinTitle } from 'react-weixin-title'
 
@@ -18,19 +18,13 @@ class Forget extends React.Component {
       <WeixinTitle title='忘记密码' src=''>
         <div id="forget">
           <div className="forget-content" style={{ backgroundColor: '#fff', height: '100vh' }}>
-            <nav>
-              <NavBar
-                icon={<Icon type="left" />}
-                onLeftClick={() => this.props.history.goBack()}
-                mode="light"
-              />
-            </nav>
-            <WhiteSpace />
             <section className="form">
               <WingBlank>
                 <WingBlank>
                   <Tabs
                     tabs={tabs}
+                    tabBarActiveTextColor='#f3b439'
+                    tabBarUnderlineStyle={{ border: '0.02667rem #f3b439 solid' }}
                   >
                     <section>
                       <WhiteSpace size='xl' />

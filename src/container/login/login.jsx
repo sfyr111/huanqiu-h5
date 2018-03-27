@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tabs, NavBar, WingBlank, WhiteSpace, List, InputItem, Button } from 'antd-mobile'
+import { Tabs, WingBlank, WhiteSpace, List, InputItem, Button } from 'antd-mobile'
 import { createForm } from 'rc-form'
 import { WeixinTitle } from 'react-weixin-title'
 
@@ -20,10 +20,6 @@ class Login extends React.Component {
       <WeixinTitle title='登录' src=''>
         <div id="login">
           <div className="login-content" style={{ backgroundColor: '#fff', height: '100vh' }}>
-            <nav>
-              <NavBar mode="light">寰球智金</NavBar>
-            </nav>
-            <WhiteSpace />
             <section className="form">
               <WingBlank>
                 <WingBlank>
@@ -32,6 +28,8 @@ class Login extends React.Component {
                     initialPage={0}
                     animated={false}
                     useOnPan={false}
+                    tabBarActiveTextColor='#f3b439'
+                    tabBarUnderlineStyle={{ border: '0.02667rem #f3b439 solid' }}
                   >
                     <section>
                       <WhiteSpace size='xl' />
