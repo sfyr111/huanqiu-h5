@@ -34,6 +34,10 @@ class Test extends React.Component {
     }).catch(e => console.log(e))
   }
 
+  componentDidMount(){
+    console.log(OSS)
+  }
+
   render() {
     const { files } = this.state;
     return (
