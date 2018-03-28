@@ -35,21 +35,34 @@ class Test extends React.Component {
   }
 
   handleClickForOss = () => {
-    const file = this.state.files[0].file
-// todo 获取sts-server 临时授权 https://help.aliyun.com/document_detail/32069.html
-    const client = new OSS.Wrapper({
-      accessKeyId: 'LTAItynAEvcPJHkE',
-      accessKeySecret: '5cZb18s6ZeBxY6K9duVavWL6Aup7T5',
-      bucket: 'egg-commerce',
-      endpoint: 'oss-cn-hangzhou.aliyuncs.com',
+    const _this = this
+    OSS.urllib.request('http://hqzj.cctt.org.cn/oss/getPolicy.htm?folder=0', { method: 'GET' }, function(err, response) {
+      let result
+      if (err) return console.error(err)
+      try {
+        result = JSON.parse(response)
+        console.log(result)
+      } catch (e) {
+        console.error(e.message)
+      }
+
+      const file = _this.state.files[0].file
+  // todo 获取sts-server 临时授权 https://help.aliyun.com/document_detail/32069.html
+      const client = new OSS.Wrapper({
+        accessKeyId: 'LTAItynAEvcPJHkE',
+        accessKeySecret: '5cZb18s6ZeBxY6K9duVavWL6Aup7T5',
+        bucket: 'egg-commerce',
+        endpoint: 'oss-cn-hangzhou.aliyuncs.com',
+      })
+
+      client.multipartUpload('', file).then((result) => {
+        console.log(result)
+      })
     })
 
-    client.multipartUpload('', file).then((result) => {
-      console.log(result)
-    })
   }
 
-  componentDidMount(){
+  componentDidMount() {
     console.log(OSS)
   }
 
