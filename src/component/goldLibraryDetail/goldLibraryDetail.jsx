@@ -5,6 +5,19 @@ import { Button } from 'antd-mobile'
 import './goldLibraryDetail.styl'
 
 class GoldLibraryDetail extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      visiable: false
+    };
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick(e){
+    this.setState({
+      visiable: true
+    })
+  }
 
   render() {
 
@@ -14,7 +27,7 @@ class GoldLibraryDetail extends React.Component {
           <div className="goldLibraryDetail-content">
             <header>
               <section>
-                <figure><img src="http://temp.im/110x110/FF2D55/000" /></figure>
+                <figure><img src="http://temp.im/110x110/FF2D55/000" alt=''/></figure>
                 <main>
                   <p>姓名: <span>AAAAAAA</span></p>
                   <p>职务: <span>职务职务职务职务职务职务</span></p>
@@ -27,7 +40,7 @@ class GoldLibraryDetail extends React.Component {
               <p style={{ height: '648px' }}>
                 简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
               </p>
-              <Button style={{ color: '#fff', backgroundColor: '#ffda7a' }}>申请入库</Button>
+              <Button style={{ color: '#fff', backgroundColor: '#ffda7a' }} onClick={this.onClick}>申请入库</Button>
             </main>
           </div>
         </div>
