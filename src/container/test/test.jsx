@@ -7,11 +7,13 @@ class Test extends React.Component {
     files: [],
     multiple: false,
   }
+
+  // 选择图片后上传
   onChange = (files, type, index) => {
     console.log(files, type, index);
     this.setState({
       files,
-    });
+    }, this.handleClick);
   }
   onSegChange = (e) => {
     const index = e.nativeEvent.selectedSegmentIndex;
@@ -25,6 +27,7 @@ class Test extends React.Component {
     formData.append('type', 'image')
     formData.append('file', this.state.files[0].file)
 
+    console.log(formData)
     axios.put('/test/upload', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
@@ -49,11 +52,22 @@ class Test extends React.Component {
       const file = _this.state.files[0].file
   // todo 获取sts-server 临时授权 https://help.aliyun.com/document_detail/32069.html
       const client = new OSS.Wrapper({
-        accessKeyId: 'LTAItynAEvcPJHkE',
-        accessKeySecret: '5cZb18s6ZeBxY6K9duVavWL6Aup7T5',
-        bucket: 'egg-commerce',
+        accessKeyId: 'LTAI8ltw5xCoCqpO',
+        accessKeySecret: 'HmMIFMsdJLj2mzBmu7m8qpAuig8euV',
+        bucket: '365jf-test2',
         endpoint: 'oss-cn-hangzhou.aliyuncs.com',
       })
+
+      // const client = new OSS.Wrapper({
+      //   name: _this.state.files[0].file.name,
+      //   policy: result.policy,
+      //   OSSAccessKeyId: 'LTAI8ltw5xCoCqpO',
+      //   success_action_status: 200,
+      //   callback: result.callback,
+      //   signature: result.signature,
+      //   'x:original': '0',
+      //   'x:cate_id': '-3',
+      // })
 
       client.multipartUpload('', file).then((result) => {
         console.log(result)
