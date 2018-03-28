@@ -34,6 +34,21 @@ class Test extends React.Component {
     }).catch(e => console.log(e))
   }
 
+  handleClickForOss = () => {
+    const file = this.state.files[0].file
+// todo 获取sts-server 临时授权 https://help.aliyun.com/document_detail/32069.html
+    const client = new OSS.Wrapper({
+      accessKeyId: 'LTAItynAEvcPJHkE',
+      accessKeySecret: '5cZb18s6ZeBxY6K9duVavWL6Aup7T5',
+      bucket: 'egg-commerce',
+      endpoint: 'oss-cn-hangzhou.aliyuncs.com',
+    })
+
+    client.multipartUpload('', file).then((result) => {
+      console.log(result)
+    })
+  }
+
   componentDidMount(){
     console.log(OSS)
   }
@@ -55,6 +70,7 @@ class Test extends React.Component {
           multiple={this.state.multiple}
         />
         <Button onClick={this.handleClick}>upload</Button>
+        <Button onClick={this.handleClickForOss}>upload-to-oss</Button>
         <Button onClick={() => axios.get('/user/logout')}>logout</Button>
       </WingBlank>
     );
