@@ -1,9 +1,16 @@
 import React from 'react'
 import { WeixinTitle } from 'react-weixin-title'
 import { Button } from 'antd-mobile'
+import { Route } from 'react-router-dom';
 
 import './goldLibraryDetail.styl'
 
+/**
+ *     const page = {
+      path: '/product/wiki/overseas/:id',
+      component: OverseasDetail
+    }
+ */
 class GoldLibraryDetail extends React.Component {
   constructor(props){
     super(props);
@@ -13,13 +20,13 @@ class GoldLibraryDetail extends React.Component {
     this.onClick = this.onClick.bind(this);
   }
 
-  onClick(e){
-    this.setState({
-      visiable: true
-    })
+  onClick(){
+    const currentPath = this.props.location.pathname;
+    this.props.history.push(`${currentPath}/form`);
   }
 
   render() {
+    console.log(this.props);
 
     return (
       <WeixinTitle title='律师详情' src=''>

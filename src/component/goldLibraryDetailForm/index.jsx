@@ -1,6 +1,7 @@
 import React,{Component}from 'react';
 
-class GoldLibraryDetailPopup extends Component{
+
+class GoldLibraryDetailForm extends Component{
   constructor(props){
     super(props);
     this.state = {}
