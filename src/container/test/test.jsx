@@ -37,43 +37,8 @@ class Test extends React.Component {
     }).catch(e => console.log(e))
   }
 
-  handleClickForOss = () => {
-    const _this = this
-    OSS.urllib.request('http://hqzj.cctt.org.cn/oss/getPolicy.htm?folder=0', { method: 'GET' }, function(err, response) {
-      let result
-      if (err) return console.error(err)
-      try {
-        result = JSON.parse(response)
-        console.log(result)
-      } catch (e) {
-        console.error(e.message)
-      }
-
-      const file = _this.state.files[0].file
-  // todo 获取sts-server 临时授权 https://help.aliyun.com/document_detail/32069.html
-      const client = new OSS.Wrapper({
-        accessKeyId: 'LTAI8ltw5xCoCqpO',
-        accessKeySecret: 'HmMIFMsdJLj2mzBmu7m8qpAuig8euV',
-        bucket: '365jf-test2',
-        endpoint: 'oss-cn-hangzhou.aliyuncs.com',
-      })
-
-      // const client = new OSS.Wrapper({
-      //   name: _this.state.files[0].file.name,
-      //   policy: result.policy,
-      //   OSSAccessKeyId: 'LTAI8ltw5xCoCqpO',
-      //   success_action_status: 200,
-      //   callback: result.callback,
-      //   signature: result.signature,
-      //   'x:original': '0',
-      //   'x:cate_id': '-3',
-      // })
-
-      client.multipartUpload('', file).then((result) => {
-        console.log(result)
-      })
-    })
-
+  apiTest = () => {
+    axios.get('/i/prod_list.htm?type=T0000').then(res => console.log(res))
   }
 
   componentDidMount() {
@@ -97,7 +62,7 @@ class Test extends React.Component {
           multiple={this.state.multiple}
         />
         <Button onClick={this.handleClick}>upload</Button>
-        <Button onClick={this.handleClickForOss}>upload-to-oss</Button>
+        <Button onClick={this.apiTest}>api-test</Button>
         <Button onClick={() => axios.get('/user/logout')}>logout</Button>
       </WingBlank>
     );

@@ -191,5 +191,5 @@
     "stylus-loader": "^3.0.1",
     "svg-sprite-loader": "^0.3.1"
   },
-  "proxy": "http://localhost:7001"
+  "proxy": "http://hqzj.cctt.org.cn"
 }
