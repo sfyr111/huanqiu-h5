@@ -3,13 +3,27 @@ import { Route } from 'react-router-dom'
 import { WeixinTitle } from 'react-weixin-title'
 import { List } from 'antd-mobile'
 
+import { connect } from 'react-redux'
+import { getAllLectureHall } from '../../redux/lectureHall.redux'
+
 import LectureHallDetail from '../lectureHallDetail/lectureHallDetail'
 
 import './lectureHall.styl'
 
+@connect(
+  state => state.lectureHall,
+  { getAllLectureHall }
+)
 class LectureHall extends React.Component {
 
+  componentDidMount() {
+    const { getAllLectureHall } = this.props
+    getAllLectureHall()
+  }
+
   render() {
+    const { lectureHallList } = this.props
+
     const page = {
       path: '/product/wiki/lectureHall/:id',
       component: LectureHallDetail
@@ -33,14 +47,15 @@ class LectureHall extends React.Component {
               </figure>
               <section className="recent-active">
                 <List renderHeader={() => '近期活动'}>
-                  {new Array(20).fill('').map((item, index) => (
+                  {lectureHallList.map((item, index) => (
                     <List.Item
+                      // todo 少时间参数
                       extra={'4月12日'}
-                      key={index}
+                      key={item.id}
                       activeStyle={{ backgroundColor: '#fff' }}
-                      onClick={() => this.props.history.push(`/product/wiki/lectureHall/${index}`)}
+                      onClick={() => this.props.history.push(`/product/wiki/lectureHall/${item.id}`)}
                     >
-                      XXXXX活动
+                      {item.title}
                     </List.Item>
                   ))}
                 </List>

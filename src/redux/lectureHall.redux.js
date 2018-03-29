@@ -26,8 +26,7 @@ export function getAllLectureHall() {
   return (dispatch) => {
     api.get('/i/prod_list.htm?type=T0004')
       .then(res => {
-        if (res.status === 200) dispatch(getAllLectureHallAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllLectureHallAction(res.obj.dataList))
       })
   }
 }

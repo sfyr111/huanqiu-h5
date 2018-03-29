@@ -17,17 +17,16 @@ export function overseas(state = initState, action) {
   }
 }
 
-function getAllGoldOverseasAction(list) {
+function getAllOverseasAction(list) {
   return { type: GET_ALL_OVERSEAS, payload: list }
 }
 
 
-export function getAllGoldOverseas() {
+export function getAllOverseas() {
   return (dispatch) => {
     api.get('/i/prod_list.htm?type=T0002')
       .then(res => {
-        if (res.status === 200) dispatch(getAllGoldOverseasAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllOverseasAction(res.obj.dataList))
       })
   }
 }

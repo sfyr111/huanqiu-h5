@@ -75,3 +75,12 @@ export const setWechatTitle = function(title) {
     document.body.appenfChild(iframe)
   }
 }
+
+export function isWeixinBrowser(){
+  return /micromessenger/.test(navigator.userAgent.toLowerCase())
+}
+
+export function openUrl(url) {
+  // if (!isWeixinBrowser()) url = url.replace('http', ' thredirect')
+  window.open(url)
+}

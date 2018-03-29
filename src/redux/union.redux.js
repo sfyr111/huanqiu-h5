@@ -26,8 +26,7 @@ export function getAllUnion() {
   return (dispatch) => {
     api.get('/i/prod_list.htm?type=T04')
       .then(res => {
-        if (res.status === 200) dispatch(getAllUnionAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllUnionAction(res.obj.dataList))
       })
   }
 }

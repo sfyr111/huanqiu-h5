@@ -26,8 +26,7 @@ export function getAllGoldAllusion() {
   return (dispatch) => {
     api.get('/i/prod_list.htm?type=T0001')
       .then(res => {
-        if (res.status === 200) dispatch(getAllGoldAllusionAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllGoldAllusionAction(res.obj.dataList))
       })
   }
 }

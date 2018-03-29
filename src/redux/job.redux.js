@@ -26,8 +26,7 @@ export function getAllJob() {
   return (dispatch) => {
     api.get('/i/recruitment.htm')
       .then(res => {
-        if (res.status === 200) dispatch(getAllJobAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllJobAction(res.obj.dataList))
       })
   }
 }

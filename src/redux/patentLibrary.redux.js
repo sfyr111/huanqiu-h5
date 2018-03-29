@@ -26,8 +26,7 @@ export function getAllPatentLibrary() {
   return (dispatch) => {
     api.get('/i/prod_list.htm?type=T0003')
       .then(res => {
-        if (res.status === 200) dispatch(getAllPatentLibraryAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllPatentLibraryAction(res.obj.dataList))
       })
   }
 }

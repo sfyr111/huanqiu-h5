@@ -1,11 +1,19 @@
 import React from 'react'
 import { ImagePicker, WingBlank, SegmentedControl, Button } from 'antd-mobile';
 import axios from 'axios'
+function isWeixinBrowser(){
+  return /micromessenger/.test(navigator.userAgent.toLowerCase())
+}
 
 class Test extends React.Component {
-  state = {
-    files: [],
-    multiple: false,
+  constructor() {
+    super()
+    this.state = {
+      files: [],
+      multiple: false,
+    }
+
+    alert(isWeixinBrowser())
   }
 
   // 选择图片后上传

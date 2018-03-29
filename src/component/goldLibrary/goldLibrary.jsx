@@ -3,16 +3,34 @@ import { Route } from 'react-router-dom'
 import { WeixinTitle } from 'react-weixin-title'
 import { Tabs } from 'antd-mobile';
 
+import { connect } from 'react-redux'
+import { getAllGoldLibrary } from '../../redux/goldLibrary.redux'
+
 import GoldLibraryDetail from '../goldLibraryDetail/goldLibraryDetail'
 
 import './goldLibrary.styl'
 
+@connect(
+  state => state.goldLibrary,
+  { getAllGoldLibrary }
+)
 class GoldLibrary extends React.Component {
-  constructor() {
-    super()
+
+  componentDidMount() {
+    const { getAllGoldLibrary } = this.props
+    getAllGoldLibrary()
   }
 
   render() {
+    const { goldLibraryList } = this.props
+
+    const mapper = {
+      americaList: goldLibraryList.filter(item => item.area === 1) || [],
+      europeList: goldLibraryList.filter(item => item.area === 2) || [],
+      chinaList: goldLibraryList.filter(item => item.area === 3) || [],
+      jkList: goldLibraryList.filter(item => item.area === 4) || [],
+    }
+
     const tabs = [
       { title: <span>美洲</span> },
       { title: <span>欧洲</span> },
@@ -36,78 +54,25 @@ class GoldLibrary extends React.Component {
               tabBarActiveTextColor='#f3b439'
               tabBarUnderlineStyle={{ border: '0.02667rem #f3b439 solid' }}
             >
-              {/*美洲*/}
-              <section className='tab-item'>
-                <ul>
-                  {new Array(10).fill('').map((item, index) => (
-                    <li key={index} onClick={() => this.props.history.push(`/product/wiki/goldLibrary/${index}`)}>
-                      <section>
-                        <figure><img src="http://temp.im/110x110/FF2D55/000" /></figure>
-                        <main>
-                          <p>姓名: <span>AAAAAAA</span></p>
-                          <p>职务: <span>职务职务职务职务职务职务</span></p>
-                          <p>地区: <span>地区地区地区地区地区地区地区</span></p>
-                        </main>
-                      </section>
-                      <footer>擅长领域: 专利侵权诉讼, 专利无效宣告, 专利许可, 专利保护</footer>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-              {/*欧洲*/}
-              <section className='tab-item'>
-                <ul>
-                  {new Array(10).fill('').map((item, index) => (
-                    <li key={index} onClick={() => this.props.history.push(`/product/wiki/goldLibrary/${index}`)}>
-                      <section>
-                        <figure><img src="http://temp.im/110x110/FF2D55/000" /></figure>
-                        <main>
-                          <p>姓名: <span>BBBBBBBB</span></p>
-                          <p>职务: <span>职务职务职务职务职务职务</span></p>
-                          <p>地区: <span>地区地区地区地区地区地区地区</span></p>
-                        </main>
-                      </section>
-                      <footer>擅长领域: 专利侵权诉讼, 专利无效宣告, 专利许可, 专利保护</footer>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-              {/*一带一路国家*/}
-              <section className='tab-item'>
-                <ul>
-                  {new Array(10).fill('').map((item, index) => (
-                    <li key={index} onClick={() => this.props.history.push(`/product/wiki/goldLibrary/${index}`)}>
-                      <section>
-                        <figure><img src="http://temp.im/110x110/FF2D55/000" /></figure>
-                        <main>
-                          <p>姓名: <span>CCCCCCCC</span></p>
-                          <p>职务: <span>职务职务职务职务职务职务</span></p>
-                          <p>地区: <span>地区地区地区地区地区地区地区</span></p>
-                        </main>
-                      </section>
-                      <footer>擅长领域: 专利侵权诉讼, 专利无效宣告, 专利许可, 专利保护</footer>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-              {/*日韩*/}
-              <section className='tab-item'>
-                <ul>
-                  {new Array(10).fill('').map((item, index) => (
-                    <li key={index} onClick={() => this.props.history.push(`/product/wiki/goldLibrary/${index}`)}>
-                      <section>
-                        <figure><img src="http://temp.im/110x110/FF2D55/000" /></figure>
-                        <main>
-                          <p>姓名: <span>DDDDDDDD</span></p>
-                          <p>职务: <span>职务职务职务职务职务职务</span></p>
-                          <p>地区: <span>地区地区地区地区地区地区地区</span></p>
-                        </main>
-                      </section>
-                      <footer>擅长领域: 专利侵权诉讼, 专利无效宣告, 专利许可, 专利保护</footer>
-                    </li>
-                  ))}
-                </ul>
-              </section>
+              {Object.keys(mapper).map(key => (
+                <section className='tab-item' key={key}>
+                  <ul>
+                    {mapper[key].map((item, index) => (
+                      <li key={item.id} onClick={() => this.props.history.push(`/product/wiki/goldLibrary/${item.id}`)}>
+                        <section>
+                          <figure><img src={item.imgHead} /></figure>
+                          <main>
+                            <p>姓名: <span>{item.name}</span></p>
+                            <p>职务: <span>{item.post}</span></p>
+                            <p>地区: <span>{item.areaFmt}</span></p>
+                          </main>
+                        </section>
+                        <footer>擅长领域: {item.skilledZone}</footer>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
             </Tabs>
           </div>
           { page ? <Route location={this.props.location} key={this.props.location.pathname} path={page.path} component={page.component} /> : null }

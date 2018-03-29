@@ -26,8 +26,7 @@ export function getAllAdvisory() {
   return (dispatch) => {
     api.get('/i/news_list.htm')
       .then(res => {
-        if (res.status === 200) dispatch(getAllAdvisoryAction(res.data.obj.dataList))
-        else alert('ERROR')
+        dispatch(getAllAdvisoryAction(res.obj.dataList))
       })
   }
 }
