@@ -67,11 +67,11 @@ class FreeForm extends Component{
           <InputItem {...getFieldProps('job')} clear placeholder="请输入职务">职务</InputItem>
           <InputItem {...getFieldProps('e-mail')} clear placeholder="请输入邮箱地址">邮箱地址</InputItem>
           <InputItem {...getFieldProps('phone')} clear placeholder="请输入联系电话">联系电话</InputItem>
-          <InputItem {...getFieldProps('company')} clear placeholder="请输入单位地址">单位地址</InputItem>
-          <InputItem {...getFieldProps('company')} clear placeholder="请输入从业经历">从业经历</InputItem>
-          <InputItem {...getFieldProps('company')} clear placeholder="请输入擅长业务">擅长业务</InputItem>
-          <InputItem {...getFieldProps('company')} clear placeholder="请输入擅长领域">擅长领域</InputItem>
-          <InputItem {...getFieldProps('company')} clear placeholder="请输入相关资格">相关资格</InputItem>
+          <InputItem {...getFieldProps('companyAdress')} clear placeholder="请输入单位地址">单位地址</InputItem>
+          <InputItem {...getFieldProps('experience')} clear placeholder="请输入从业经历">从业经历</InputItem>
+          <InputItem {...getFieldProps('skilledJob')} clear placeholder="请输入擅长业务">擅长业务</InputItem>
+          <InputItem {...getFieldProps('skilledDomain')} clear placeholder="请输入擅长领域">擅长领域</InputItem>
+          <InputItem {...getFieldProps('qualification')} clear placeholder="请输入相关资格">相关资格</InputItem>
           <Item><div>上传相片</div>
             <ImagePicker files={pic} onChange={(files, type) => { this.onChange(files, type, 'pic') }} onImageClick={(index, fs) => console.log(index, fs)}/>
           </Item>
