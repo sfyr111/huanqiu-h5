@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tabs, WingBlank, WhiteSpace, List, InputItem, Button } from 'antd-mobile'
+import { Tabs, WingBlank, WhiteSpace, List, InputItem, Button, Radio } from 'antd-mobile'
 import { createForm } from 'rc-form'
 import { WeixinTitle } from 'react-weixin-title'
 
@@ -7,6 +7,9 @@ import './login.styl'
 
 @createForm()
 class Login extends React.Component {
+  state = {
+    nature: 'personal'
+  }
 
   render() {
     const tabs = [
@@ -15,6 +18,18 @@ class Login extends React.Component {
     ]
 
     const { getFieldProps } = this.props.form
+
+    const nature = (<div className='nature' style={{
+      fontSize: 14,
+      color: '#ccc',
+      display: 'flex',
+      width: '100%',
+      justifyContent: 'space-between'
+    }}>
+      <Radio className="my-radio" onChange={() => this.setState({ nature: 'personal'})} checked={this.state.nature === 'personal'}>个人</Radio>
+      <Radio className="my-radio" onChange={() => this.setState({ nature: 'company'})} checked={this.state.nature === 'company'}>企业</Radio>
+      <Radio className="my-radio" onChange={() => this.setState({ nature: 'office'})} checked={this.state.nature === 'office'}>事务所</Radio>
+    </div>)
 
     return (
       <WeixinTitle title='登录' src=''>
@@ -56,6 +71,7 @@ class Login extends React.Component {
                     <section>
                       <WhiteSpace size='xl' />
                       <List>
+                        <List.Item><span className='sex-line_label'></span>{nature}</List.Item>
                         <InputItem
                           {...getFieldProps('regUsername')}
                           placeholder="输入用户名"
@@ -86,6 +102,24 @@ class Login extends React.Component {
                         >
                           <img src={require('./img/验证码@2x.png')} alt=""/>
                           <Button style={{ position: 'absolute', right: 0, top: '0.16rem', color: '#f3b439' }} size='small'>获取验证码</Button>
+                        </InputItem>
+                        <InputItem
+                          {...getFieldProps('regCompany')}
+                          placeholder="输入单位名称"
+                        >
+                          <img src={require('./img/单位@2x.png')} alt=""/>
+                        </InputItem>
+                        <InputItem
+                          {...getFieldProps('regJob')}
+                          placeholder="输入职位"
+                        >
+                          <img src={require('./img/职位@2x.png')} alt=""/>
+                        </InputItem>
+                        <InputItem
+                          {...getFieldProps('regCountry')}
+                          placeholder="输入国籍"
+                        >
+                          <img src={require('./img/国际@2x.png')} alt=""/>
                         </InputItem>
                       </List>
                       <WhiteSpace size='xl' />
