@@ -1,10 +1,30 @@
 import React from 'react'
 import { WeixinTitle } from 'react-weixin-title'
 import { Button } from 'antd-mobile'
+import {Route}from 'react-router-dom';
 
+import FreeForm from '../form/index';
 import '../../../common/stylus/textAndApplication.styl'
 
+
+const page = {
+  path: '/product/free/lang/form',
+  // uploadData 需要传递，里面的表单数据已经打包完成，可以用uploadData函数拿出来。默认是console.log(data)打印在控制台
+  // sex: 0代表女 1代表男
+  component: FreeForm
+}
+
 class Lang extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {};
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick(){
+     const currentPath = this.props.location.pathname;
+    this.props.history.push(`${currentPath}/form`);
+  }
 
   render() {
 
@@ -23,8 +43,9 @@ class Lang extends React.Component {
             </p>
           </main>
           <section className='application' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <Button style={{ color: '#262626', backgroundColor: '#f1b347', width: '100%' }}>在线申请</Button>
+            <Button style={{ color: '#262626', backgroundColor: '#f1b347', width: '100%' }} onClick={this.onClick}>在线申请</Button>
           </section>
+           { page ? <Route location={this.props.location} key={this.props.location.pathname} path={page.path} component={page.component} /> : null }
         </div>
 
       </WeixinTitle>
