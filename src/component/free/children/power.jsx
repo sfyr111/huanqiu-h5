@@ -2,15 +2,23 @@ import React from 'react'
 import { WeixinTitle } from 'react-weixin-title'
 import { Button } from 'antd-mobile'
 
+import { Route } from 'react-router'
+import Form from '../form/power'
+
 import '../../../common/stylus/textAndApplication.styl'
 
 class Power extends React.Component {
 
   render() {
+    const page = {
+      path: '/product/free/power/form',
+      component: Form
+    }
 
     return (
       <WeixinTitle title='维权支援' src=''>
         <div style={{ height: '100vh', overflow: 'auto', background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
+          { page ? <Route location={this.props.location} key={this.props.location.pathname} path={page.path} component={page.component} /> : null }
           <main className='text-app'>
             <h1>
 
@@ -35,7 +43,7 @@ class Power extends React.Component {
 
           </main>
           <section className='application' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <Button style={{ color: '#262626', backgroundColor: '#f1b347', width: '100%' }}>在线申请</Button>
+            <Button onClick={() => this.props.history.push(page.path)} style={{ color: '#262626', backgroundColor: '#f1b347', width: '100%' }}>在线申请</Button>
           </section>
         </div>
 

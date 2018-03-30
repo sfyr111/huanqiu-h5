@@ -2,15 +2,30 @@ import React from 'react'
 import { WeixinTitle } from 'react-weixin-title'
 import { Button } from 'antd-mobile'
 
+import { Route } from 'react-router'
+import DonateForm from './form/donate-form'
+import BuyForm from './form/buy-form'
+
 import '../../../common/stylus/textAndApplication.styl'
 
 class OperationFund extends React.Component {
 
   render() {
+    const page = [
+      {
+        path: '/product/operation/fund/donate-form',
+        component: DonateForm
+      },
+      {
+        path: '/product/operation/fund/buy-form',
+        component: BuyForm
+      },
+    ]
 
     return (
       <WeixinTitle title='运营基金' src=''>
         <div style={{ background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
+          {page.map(item => <Route location={this.props.location} key={this.props.location.pathname} path={item.path} component={item.component} />)}
           <main className='text-app'>
             <h1>
 
@@ -43,8 +58,8 @@ class OperationFund extends React.Component {
 
           </main>
           <section className='application' style={{ display: 'flex' }}>
-            <Button style={{ flexBasis: '50%', color: '#f1b347', backgroundColor: '#262626' }}>我要捐献</Button>
-            <Button style={{ flexBasis: '50%', color: '#262626', backgroundColor: '#f1b347' }}>我要购买</Button>
+            <Button onClick={() => this.props.history.push('/product/operation/fund/donate-form')} style={{ flexBasis: '50%', color: '#f1b347', backgroundColor: '#262626' }}>我要捐献</Button>
+            <Button onClick={() => this.props.history.push('/product/operation/fund/buy-form')} style={{ flexBasis: '50%', color: '#262626', backgroundColor: '#f1b347' }}>我要购买</Button>
           </section>
         </div>
 

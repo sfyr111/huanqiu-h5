@@ -1,33 +1,44 @@
 import React from 'react'
 import { Card, Accordion, List } from 'antd-mobile'
 import { WeixinTitle } from 'react-weixin-title'
+import { connect } from 'react-redux'
+import { getAllJob } from '../../redux/job.redux'
 
 import './job.styl'
 
+@connect(
+  state => state.job,
+  { getAllJob }
+)
 class Job extends React.Component {
 
+  componentDidMount() {
+    const { getAllJob } = this.props
+    getAllJob()
+  }
+
   render() {
+    const { jobList } = this.props
+
+    console.log(jobList[0].requirement.split('\n').slice(0, -1))
     return (
       <WeixinTitle title='招聘' src=''>
         <div id="job" className="main">
           <div className="job-content">
-            {new Array(8).fill('').map((item, index) => (
+            {jobList.map((item, index) => (
               <Card key={index}>
                 <Card.Header
-                  title="高级全栈工程师[南京]"
+                  title={item.title + item.region}
                 />
                 <Card.Body>
-                  <p>阿斯蒂芬打撒发大水发送到发送到发送到发大水发多少sad发多少范德萨发大水放大放大阿斯蒂芬很多撒酒疯</p>
-                  <p style={{ fontSize: 12 }}>请将简历发送至: ccccc@ccc.com</p>
-                  <p style={{ fontSize: 12 }}>邮件标题格式: 地区+姓名+应聘职位</p>
+                  <p>{item.brief}</p>
+                  {item.remarks.split('\n').slice(0, -1).map(v => <p style={{ fontSize: 12 }}>{v}</p>)}
                 </Card.Body>
                 <Card.Footer content={
                   <Accordion>
                     <Accordion.Panel header="职位描述">
                       <List>
-                        <List.Item>描述1描述1描述1描述1描述1描述1</List.Item>
-                        <List.Item>描述1描述1描述1描述1描述1描述1描述1</List.Item>
-                        <List.Item>描述1描述1描述1描述1描述1</List.Item>
+                        {item.requirement.split('\n').slice(0, -1).map(v => <List.Item>{v}</List.Item>)}
                       </List>
                     </Accordion.Panel>
                   </Accordion>

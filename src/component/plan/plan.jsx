@@ -11,7 +11,7 @@ class Plan extends React.Component {
     const { path, component } = item
 
     if (!path.trim()) {
-      Toast.info('功能开发中~')
+      Toast.info('功能开发中~', 1)
       return
     }
 

@@ -2,15 +2,30 @@ import React from 'react'
 import { WeixinTitle } from 'react-weixin-title'
 import { Button } from 'antd-mobile'
 
+import { Route } from 'react-router'
+import JoinForm from './form/join-form'
+import AuctionForm from './form/auction-form'
+
 import '../../common/stylus/textAndApplication.styl'
 
 class Auction extends React.Component {
 
   render() {
+    const page = [
+      {
+        path: '/product/auction/join-form',
+        component: JoinForm
+      },
+      {
+        path: '/product/auction/auction-form',
+        component: AuctionForm
+      },
+    ]
 
     return (
       <WeixinTitle title='智金拍卖' src=''>
         <div style={{ background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>
+          {page.map(item => <Route location={this.props.location} key={this.props.location.pathname} path={item.path} component={item.component} />)}
           <main className='text-app'>
             <h1>
             寰球智金拍-知识产权在线竞价在线拍卖平台
@@ -24,8 +39,8 @@ class Auction extends React.Component {
 
           </main>
           <section className='application' style={{ display: 'flex' }}>
-            <Button style={{ flexBasis: '50%', color: '#f1b347', backgroundColor: '#262626' }}>我要拍卖</Button>
-            <Button style={{ flexBasis: '50%', color: '#262626', backgroundColor: '#f1b347' }}>我要参拍</Button>
+            <Button onClick={() => this.props.history.push('/product/auction/join-form')} style={{ flexBasis: '50%', color: '#f1b347', backgroundColor: '#262626' }}>我要拍卖</Button>
+            <Button onClick={() => this.props.history.push('/product/auction/auction-form')} style={{ flexBasis: '50%', color: '#262626', backgroundColor: '#f1b347' }}>我要参拍</Button>
           </section>
         </div>
 

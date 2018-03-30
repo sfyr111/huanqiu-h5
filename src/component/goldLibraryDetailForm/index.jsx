@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Button } from 'antd-mobile';
-import { List, InputItem,Radio,ImagePicker} from 'antd-mobile';
+import { Button, Picker, Toast,List, InputItem, ImagePicker} from 'antd-mobile';
 import { createForm } from 'rc-form';
+import axios from 'axios'
+import api from '../../common/api/service'
 
 import './index.styl';
 
@@ -10,9 +11,19 @@ class GoldLibraryDetailForm extends Component{
   constructor(props){
     super(props);
     this.state = {
-      files: [],
-      pic:[],
-      sex: 2
+      sexOption: [
+        { value: '1', label: '先生' },
+        { value: '2', label: '女士' },
+        { value: '3', label: '博士' },
+      ],
+      areaOption: [
+        { value: '1', label: '美洲' },
+        { value: '2', label: '欧洲' },
+        { value: '3', label: '一带一路国家' },
+        { value: '4', label: '日韩' },
+      ],
+      imgHeadFiles: [],
+      imgCertFiles: []
     }
     this.setSex = this.setSex.bind(this);
     this.onChange = this.onChange.bind(this);
@@ -25,20 +36,44 @@ class GoldLibraryDetailForm extends Component{
     })
   }
 
-  onChange(files, type, species){
-    console.log(files, type, species);
+  onChange = (files, type, key) => {
     this.setState({
-      [species]: files
-    });
+      [key]: files,
+    }, () => this.upload(key));
+  }
+
+  upload = (key) => {
+    if (this.state[key].length < 1) return
+    const formData = new FormData()
+    formData.append('type', 'image')
+    formData.append('file', this.state[key][0].file)
+
+    axios.put('http://localhost:7001/test/upload', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    }).then(response => {
+      if (response.statusText === 'OK') {
+        const { url } = response.data.data
+        this.setState({
+          [key.replace('Files', '')]: url
+        })
+      } else alert('上传失败')
+    }).catch(e => console.log(e))
   }
 
   onSubmit() {
     this.props.form.validateFields({ force: true }, (error) => {
       if (!error) {
-        const { sex, pic, files } = this.state;
-        const value = { sex, pic, files, ...this.props.form.getFieldsValue() };
-        const { uploadData = (data) => {console.log(data)}} = this.props;
-        return uploadData(value);
+        const { imgHead, imgCert } = this.state;
+        const value = { imgHead, imgCert, ...this.props.form.getFieldsValue() };
+        Object.keys(value).forEach(k => {
+          if (value[k] instanceof Array) value[k] = value[k][0]
+          if (!value[k]) Toast.info('请完善数据', 1)
+        })
+        api.post('/0000_apply_sub.htm', value).then(res => {
+          if (res.success) Toast.success('上传成功', 1)
+        })
       } else {
         alert('Validation failed');
       }
@@ -46,32 +81,35 @@ class GoldLibraryDetailForm extends Component{
   }
 
   render() {
-    const { files,pic } = this.state;
     const { getFieldProps } = this.props.form;
-    const sexSelector = <div className='sexSelector'>
-      <Radio className="my-radio" onChange={() => {this.setSex(1)}} checked={this.state.sex === 1}>男</Radio>
-      <Radio className="my-radio" onChange={() => {this.setSex(0)}} checked={this.state.sex === 0}>女</Radio>
-    </div>
+
     return (
-      <div className='goldLibraryDetailForm-component'>
+      <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
         <List>
-          <InputItem {...getFieldProps('userName')} clear placeholder="请输入姓名">姓名</InputItem>
-          <Item><span className='sex-line_label'>性别：</span>{sexSelector}</Item>
-          <InputItem {...getFieldProps('location')} clear placeholder="请输入所在地区">所在地区</InputItem>
-          <InputItem {...getFieldProps('cardSpecies')} clear placeholder="请输入证件类型">证件类型</InputItem>
-          <InputItem {...getFieldProps('cardNumber')} clear placeholder="请输入证件号码">证件号码</InputItem>
+          <InputItem {...getFieldProps('name')} clear placeholder="请输入姓名">姓名</InputItem>
+          <Picker data={this.state.sexOption} cols={1} {...getFieldProps('calling')} className="forss">
+            <List.Item arrow="horizontal">称谓</List.Item>
+          </Picker>
+          <Picker data={this.state.areaOption} cols={1} {...getFieldProps('area')} className="forss">
+            <List.Item arrow="horizontal">地区</List.Item>
+          </Picker>
           <InputItem {...getFieldProps('company')} clear placeholder="请输入所在单位">所在单位</InputItem>
-          <InputItem {...getFieldProps('job')} clear placeholder="请输入职务">职务</InputItem>
-          <InputItem {...getFieldProps('e-mail')} clear placeholder="请输入邮箱地址">邮箱地址</InputItem>
-          <InputItem {...getFieldProps('phone')} clear placeholder="请输入联系电话">联系电话</InputItem>
+          <InputItem {...getFieldProps('post')} clear placeholder="请输入职务">职务</InputItem>
+          <InputItem {...getFieldProps('email')} clear placeholder="请输入邮箱地址">邮箱地址</InputItem>
+          <InputItem {...getFieldProps('tel')} clear placeholder="请输入联系电话">联系电话</InputItem>
+          <InputItem {...getFieldProps('companyAdr')} clear placeholder="请输入单位地址">单位地址</InputItem>
+          <InputItem {...getFieldProps('experience')} clear placeholder="请输入从业经历">从业经历</InputItem>
+          <InputItem {...getFieldProps('business')} clear placeholder="请输入擅长业务">擅长业务</InputItem>
+          <InputItem {...getFieldProps('skilledZone')} clear placeholder="请输入擅长领域">擅长领域 </InputItem>
+          <InputItem {...getFieldProps('qualified')} clear placeholder="请输入相关资格">相关资格 </InputItem>
           <Item><div>上传图片</div>
-            <ImagePicker files={pic} onChange={(files, type) => { this.onChange(files, type, 'pic') }} onImageClick={(index, fs) => console.log(index, fs)}/>
+            <ImagePicker files={this.state.imgHeadFiles} multiple={false} selectable={this.state.imgHeadFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgHeadFiles') }} />
           </Item>
           <Item><div>上传证明</div>
-            <ImagePicker files={files} onChange={(files, type) => { this.onChange(files, type, 'files') }} onImageClick={(index, fs) => console.log(index, fs)}/>
+            <ImagePicker files={this.state.imgCertFiles} multiple={false} selectable={this.state.imgCertFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgCertFiles') }} />
           </Item>
+          <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
-        <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>  
       </div>
     )
   }

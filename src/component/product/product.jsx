@@ -61,7 +61,7 @@ class Product extends React.Component {
             <ul className="product-list">
               {navList.map((item, index) => (
                 <li key={index} onClick={() => this.props.history.push(item.path)}>
-                  <div><span style={{ color: 'red' }}>{item.title}</span></div>
+                  <div><span style={{ color: 'red' }}>{}</span></div>
                 </li>
               ))}
             </ul>

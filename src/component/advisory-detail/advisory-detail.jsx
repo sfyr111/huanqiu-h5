@@ -1,15 +1,21 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
+@connect(
+  state => state.advisory
+)
 class AdvisoryDetail extends React.Component {
 
-  componentDidMount() {
-    console.log(this.props.match.params.id)
-  }
+  componentDidMount() {}
 
   render() {
+    const { id } = this.props.match.params
+    const [detail] = this.props.advisoryList.filter(item => item.id === Number(id))
 
     return (
-      <h1 style={{ background: 'red', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0' }}>AdvisoryDetail</h1>
+      <div style={{ background: '#fff', position: 'fixed', left: '0', right: '0', top: '0', bottom: '0', height: '100vh', overflow: 'auto' }} dangerouslySetInnerHTML={{ __html: detail.content }}>
+
+      </div>
     )
   }
 }

@@ -2,29 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3cba74-10ff-40a5-89a1-f88802e36df5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/auction/form/auction-form.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/auction/form/join-form.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/form/lang.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/form/madrid.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/form/pct.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/form/power.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/form/subsidy.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/free/form/index.jsx" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/component/free/form/index.styl" afterPath="$PROJECT_DIR$/src/component/free/form/pct.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/navList/img/我的@2x.png" afterPath="$PROJECT_DIR$/src/component/navList/img/我的@2x.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/js/util.js" afterPath="$PROJECT_DIR$/src/common/js/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldAllusion/goldAllusion.jsx" afterPath="$PROJECT_DIR$/src/component/goldAllusion/goldAllusion.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.jsx" afterPath="$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.jsx" afterPath="$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/lectureHall/lectureHall.jsx" afterPath="$PROJECT_DIR$/src/component/lectureHall/lectureHall.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/lectureHallDetail/lectureHallDetail.jsx" afterPath="$PROJECT_DIR$/src/component/lectureHallDetail/lectureHallDetail.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/overseas/overseas.jsx" afterPath="$PROJECT_DIR$/src/component/overseas/overseas.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/overseasDetail/overseasDetail.jsx" afterPath="$PROJECT_DIR$/src/component/overseasDetail/overseasDetail.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/patentLibrary/patentLibrary.jsx" afterPath="$PROJECT_DIR$/src/component/patentLibrary/patentLibrary.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/patentLibrary/patentLibrary.styl" afterPath="$PROJECT_DIR$/src/component/patentLibrary/patentLibrary.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/union/union.jsx" afterPath="$PROJECT_DIR$/src/component/union/union.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/unionDetail/unionDetail.jsx" afterPath="$PROJECT_DIR$/src/component/unionDetail/unionDetail.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx" afterPath="$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/advisory/advisory.jsx" afterPath="$PROJECT_DIR$/src/component/advisory/advisory.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/auction/auction.jsx" afterPath="$PROJECT_DIR$/src/component/auction/auction.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/lang.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/lang.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/madrid.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/madrid.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/pct.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/pct.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/power.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/power.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" afterPath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl" afterPath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/job/job.jsx" afterPath="$PROJECT_DIR$/src/component/job/job.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/job/job.styl" afterPath="$PROJECT_DIR$/src/component/job/job.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" afterPath="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/operation.jsx" afterPath="$PROJECT_DIR$/src/component/operation/operation.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/plan/plan.jsx" afterPath="$PROJECT_DIR$/src/component/plan/plan.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/product.jsx" afterPath="$PROJECT_DIR$/src/component/product/product.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/test/test.jsx" afterPath="$PROJECT_DIR$/src/container/test/test.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer.js" afterPath="$PROJECT_DIR$/src/reducer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/advisory.redux.js" afterPath="$PROJECT_DIR$/src/redux/advisory.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/goldAllusion.redux.js" afterPath="$PROJECT_DIR$/src/redux/goldAllusion.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/goldLibrary.redux.js" afterPath="$PROJECT_DIR$/src/redux/goldLibrary.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/job.redux.js" afterPath="$PROJECT_DIR$/src/redux/job.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/lectureHall.redux.js" afterPath="$PROJECT_DIR$/src/redux/lectureHall.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/overseas.redux.js" afterPath="$PROJECT_DIR$/src/redux/overseas.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/patentLibrary.redux.js" afterPath="$PROJECT_DIR$/src/redux/patentLibrary.redux.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/union.redux.js" afterPath="$PROJECT_DIR$/src/redux/union.redux.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,23 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducer.js">
+      <file leaf-file-name="operationFund.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/operation/children/operationFund.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goldLibrary.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="74" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -62,11 +59,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goldLibraryDetail.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.jsx">
+      <file leaf-file-name="donate-form.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="86" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buy-form.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auction.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/auction/auction.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="149" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -74,23 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="union.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/union/union.jsx">
+      <file leaf-file-name="lang.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/free/children/lang.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-              <folding>
-                <element signature="e#42#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unionDetail.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/unionDetail/unionDetail.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="393">
+              <caret line="45" column="138" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="138" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -102,27 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Madrid</find>
-      <find>eslint</find>
-      <find>validateTrigger</find>
-      <find>Radio</find>
-      <find>getAllChannelsType</find>
-      <find>Library</find>
-      <find>ALLUSION</find>
-      <find>Allusion</find>
-      <find>goldOverseasList</find>
-      <find>OVERSEAS</find>
-      <find>rseas</find>
-      <find>overseasList</find>
-      <find>getAllGoldOverseasAction</find>
-      <find>PATENT_LIBRARY</find>
-      <find>patentLibrary</find>
-      <find>getAllPatentLibrary</find>
-      <find>GET_ALL_LECTURE_HALL</find>
-      <find>lectureHallList</find>
-      <find>lectureHall</find>
-      <find>getAllLectureHall</find>
-      <find>GET_ALL_UNION</find>
       <find>unionList</find>
       <find>getAllUnion</find>
       <find>GET_ALL_ADVISORY</find>
@@ -132,6 +118,27 @@
       <find>checkStatus</find>
       <find>goldAllusionList</find>
       <find>src</find>
+      <find>onSubmit</find>
+      <find>calling</find>
+      <find>Toast.info(</find>
+      <find>/form/index</find>
+      <find>placeholder</find>
+      <find>freeForm-component</find>
+      <find>logoUrlFiles</find>
+      <find>PctForm</find>
+      <find>PowerForm</find>
+      <find>GoldLibraryDetailForm</find>
+      <find>经营范围</find>
+      <find>.goldLibraryDetailForm-component .am-list-item .am-list-line .am-list-extra</find>
+      <find>经营场所</find>
+      <find>factoryPropertyOp</find>
+      <find>.am-image-picker-list .am-flexbox .am-flexbox-item</find>
+      <find>LangForm</find>
+      <find>手机</find>
+      <find>fund</find>
+      <find>AuctionForm</find>
+      <find>JoinForm</find>
+      <find>api</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,36 +147,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/component/free/children/power.jsx" />
-        <option value="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" />
-        <option value="$PROJECT_DIR$/src/component/operation/operation.styl" />
-        <option value="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" />
-        <option value="$PROJECT_DIR$/src/component/operation/operation.jsx" />
-        <option value="$PROJECT_DIR$/src/component/plan/plan.styl" />
-        <option value="$PROJECT_DIR$/src/component/plan/plan.jsx" />
-        <option value="$PROJECT_DIR$/src/component/dashboard/dashboard.jsx" />
-        <option value="$PROJECT_DIR$/src/component/navList/navList.jsx" />
-        <option value="$PROJECT_DIR$/src/component/mine/mine.styl" />
-        <option value="$PROJECT_DIR$/src/component/mine/mine.jsx" />
-        <option value="$PROJECT_DIR$/src/container/register/register.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/container/forget/forget.jsx" />
-        <option value="$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.styl" />
-        <option value="$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.styl" />
-        <option value="$PROJECT_DIR$/src/common/stylus/textAndApplication.styl" />
-        <option value="$PROJECT_DIR$/src/component/free/children/madrid.jsx" />
-        <option value="$PROJECT_DIR$/src/container/protocol/protocol.jsx" />
-        <option value="$PROJECT_DIR$/src/common/js/aliyun-oss-sdk.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/component/product/product.styl" />
-        <option value="$PROJECT_DIR$/src/container/login/login.jsx" />
         <option value="$PROJECT_DIR$/src/container/login/login.styl" />
-        <option value="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/redux/goldLibrary.js" />
         <option value="$PROJECT_DIR$/src/redux/goldAllusion.js" />
         <option value="$PROJECT_DIR$/src/common/api/service.js" />
-        <option value="$PROJECT_DIR$/src/redux/advisory.redux.js" />
         <option value="$PROJECT_DIR$/src/redux/goldAllusion.redux.js" />
         <option value="$PROJECT_DIR$/src/redux/job.redux.js" />
         <option value="$PROJECT_DIR$/src/redux/lectureHall.redux.js" />
@@ -181,16 +163,41 @@
         <option value="$PROJECT_DIR$/src/redux/overseas.redux.js" />
         <option value="$PROJECT_DIR$/src/component/overseas/overseas.jsx" />
         <option value="$PROJECT_DIR$/src/component/overseasDetail/overseasDetail.jsx" />
-        <option value="$PROJECT_DIR$/src/container/test/test.jsx" />
         <option value="$PROJECT_DIR$/src/component/goldAllusion/goldAllusion.jsx" />
         <option value="$PROJECT_DIR$/src/common/js/util.js" />
         <option value="$PROJECT_DIR$/src/component/patentLibrary/patentLibrary.styl" />
         <option value="$PROJECT_DIR$/src/component/patentLibrary/patentLibrary.jsx" />
         <option value="$PROJECT_DIR$/src/component/lectureHall/lectureHall.jsx" />
         <option value="$PROJECT_DIR$/src/component/lectureHallDetail/lectureHallDetail.jsx" />
-        <option value="$PROJECT_DIR$/src/reducer.js" />
         <option value="$PROJECT_DIR$/src/component/union/union.jsx" />
         <option value="$PROJECT_DIR$/src/component/unionDetail/unionDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/reducer.js" />
+        <option value="$PROJECT_DIR$/src/component/advisory/advisory.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/advisory.redux.js" />
+        <option value="$PROJECT_DIR$/src/component/job/job.jsx" />
+        <option value="$PROJECT_DIR$/src/component/job/job.styl" />
+        <option value="$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx" />
+        <option value="$PROJECT_DIR$/src/component/product/product.jsx" />
+        <option value="$PROJECT_DIR$/src/container/test/test.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/index.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/children/pct.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/pct.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/children/madrid.jsx" />
+        <option value="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/madrid.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/children/power.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/power.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/lang.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/children/lang.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/subsidy.jsx" />
+        <option value="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl" />
+        <option value="$PROJECT_DIR$/src/component/auction/auction.jsx" />
+        <option value="$PROJECT_DIR$/src/component/auction/form/join-form.jsx" />
+        <option value="$PROJECT_DIR$/src/component/auction/form/auction-form.jsx" />
+        <option value="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" />
+        <option value="$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx" />
+        <option value="$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx" />
       </list>
     </option>
   </component>
@@ -213,9 +220,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="551" />
+    <option name="x" value="663" />
     <option name="y" value="23" />
-    <option name="width" value="1129" />
+    <option name="width" value="1017" />
     <option name="height" value="952" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -275,38 +282,51 @@
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="auction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="auction" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="children" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
@@ -327,27 +347,37 @@
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="union" type="462c0819:PsiDirectoryNode" />
+              <item name="goldLibraryDetailForm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="unionDetail" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+              <item name="children" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+              <item name="children" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
@@ -435,18 +465,18 @@
       <workItem from="1522288801758" duration="302000" />
       <workItem from="1522289438586" duration="2772000" />
       <workItem from="1522302171615" duration="3756000" />
-      <workItem from="1522331365202" duration="13271000" />
+      <workItem from="1522331365202" duration="37079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135848000" />
+    <option name="totallyTimeSpent" value="159656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="551" y="23" width="1129" height="952" extended-state="0" />
+    <frame x="663" y="23" width="1017" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1398917" sideWeight="0.48594847" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17871486" sideWeight="0.48594847" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -481,236 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/operation/operation.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/forget/forget.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/mine/mine.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/navList/navList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/mine/mine.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="55" lean-forward="false" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/forget/forget.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/dashboard/dashboard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/dashboard/dashboard.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/children/madrid.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/protocol/protocol.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/js/aliyun-oss-sdk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="593" lean-forward="true" selection-start-line="3" selection-start-column="593" selection-end-line="3" selection-end-column="593" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="70" column="89" lean-forward="true" selection-start-line="70" selection-start-column="89" selection-end-line="70" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/product/product.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/login/login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/login/login.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="182" column="35" lean-forward="true" selection-start-line="182" selection-start-column="35" selection-end-line="182" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/api/service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="15" column="73" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/advisory.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/channel.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/job.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/user.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/goldLibrary.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/goldAllusion.redux.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -740,16 +540,8 @@
         <state relative-caret-position="281">
           <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/container/test/test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +576,7 @@
         <state relative-caret-position="333">
           <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -802,7 +594,7 @@
         <state relative-caret-position="285">
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="21" selection-end-column="17" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,7 +604,7 @@
         <state relative-caret-position="345">
           <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -822,7 +614,7 @@
         <state relative-caret-position="324">
           <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -835,41 +627,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/union/union.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="74" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,17 +648,338 @@
         <state relative-caret-position="207">
           <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding>
-            <element signature="e#42#67#0" expanded="true" />
+            <element signature="e#42#67#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/unionDetail/unionDetail.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="457">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/advisory/advisory.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/job/job.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/job/job.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/advisory/advisory.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+            <element signature="e#170#218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/navList/navList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="39" column="147" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/advisory.redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/container/test/test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/free.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1022">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="147" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/madrid.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/children/madrid.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="101" column="69" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/children/pct.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="147" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="147" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="86" column="182" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/children/subsidy.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/power.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="103" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/children/power.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/subsidy.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/lang.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="80" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/children/lang.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="45" column="138" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="138" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/operation/children/operationFund.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/auction/form/auction-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/auction/form/join-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/auction/auction.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="149" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

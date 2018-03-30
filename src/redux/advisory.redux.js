@@ -22,9 +22,9 @@ function getAllAdvisoryAction(list) {
 }
 
 
-export function getAllAdvisory() {
+export function getAllAdvisory(keyWord = '') {
   return (dispatch) => {
-    api.get('/i/news_list.htm')
+    api.get(`/i/news_list.htm?title=${encodeURI(encodeURI(keyWord))}`)
       .then(res => {
         dispatch(getAllAdvisoryAction(res.obj.dataList))
       })

@@ -9,8 +9,10 @@ import { overseas } from './redux/overseas.redux'
 import { patentLibrary } from './redux/patentLibrary.redux'
 import { lectureHall } from './redux/lectureHall.redux'
 import { union } from './redux/union.redux'
+import { advisory } from './redux/advisory.redux'
+import { job } from './redux/job.redux'
 
 import { routerReducer } from 'react-router-redux'
 
 
-export default combineReducers({ router: routerReducer, user, topic, channel, goldLibrary, goldAllusion, overseas, patentLibrary, lectureHall, union })
+export default combineReducers({ router: routerReducer, user, topic, channel, goldLibrary, goldAllusion, overseas, patentLibrary, lectureHall, union, advisory, job })

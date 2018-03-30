@@ -17,8 +17,7 @@ class Test extends React.Component {
   }
 
   // 选择图片后上传
-  onChange = (files, type, index) => {
-    console.log(files, type, index);
+  onChange = (files) => {
     this.setState({
       files,
     }, this.handleClick);
@@ -35,7 +34,6 @@ class Test extends React.Component {
     formData.append('type', 'image')
     formData.append('file', this.state.files[0].file)
 
-    console.log(formData)
     axios.put('/test/upload', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
