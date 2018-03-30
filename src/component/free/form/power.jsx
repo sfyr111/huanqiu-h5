@@ -47,7 +47,7 @@ class PowerForm extends Component{
     formData.append('type', 'image')
     formData.append('file', this.state[key][0].file)
 
-    axios.put('http://localhost:7001/test/upload', formData, {
+    axios.put(process.env.NODE_ENV === 'development' ? 'http://localhost:7001/test/upload' : 'http://115.28.10.222:7001/test/upload', formData, {
       headers: {
         'Content-Type': 'multipart/form-data'
       }

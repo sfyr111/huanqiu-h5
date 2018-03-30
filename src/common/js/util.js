@@ -81,6 +81,6 @@ export function isWeixinBrowser(){
 }
 
 export function openUrl(url) {
-  // if (!isWeixinBrowser()) url = url.replace('http', ' thredirect')
+  if (!isWeixinBrowser()) url = url.replace('http', ' thredirect')
   window.open(url)
 }

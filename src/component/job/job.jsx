@@ -20,7 +20,6 @@ class Job extends React.Component {
   render() {
     const { jobList } = this.props
 
-    console.log(jobList[0].requirement.split('\n').slice(0, -1))
     return (
       <WeixinTitle title='招聘' src=''>
         <div id="job" className="main">

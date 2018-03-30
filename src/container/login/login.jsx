@@ -1,14 +1,61 @@
 import React from 'react'
-import { Tabs, WingBlank, WhiteSpace, List, InputItem, Button, Radio } from 'antd-mobile'
+import { Tabs, WingBlank, WhiteSpace, List, InputItem, Button, Radio, Toast } from 'antd-mobile'
 import { createForm } from 'rc-form'
 import { WeixinTitle } from 'react-weixin-title'
+import api from '../../common/api/service'
 
 import './login.styl'
 
 @createForm()
 class Login extends React.Component {
-  state = {
-    nature: 'personal'
+  constructor() {
+    super()
+    this.state = {
+      time: 180,
+      nature: '1',
+    }
+  }
+
+  register = () => {
+    const value = { ...{ type: this.state.nature }, ...this.props.form.getFieldsValue() }
+    api.post('/do_register.htm', value).then(res => {
+      if (res.success) {
+        Toast.success('注册成功', 1)
+        window.location.reload()
+      }
+      else Toast.fail(res.message, 1)
+    })
+  }
+
+  login = () => {
+    const value = { ...{ tel: this.props.form.getFieldValue('loginTel'), password: this.props.form.getFieldValue('loginPassword') } }
+    api.post('/do_login.htm', value).then(res => {
+      if (res.success) {
+        localStorage.setItem('USEER_TEL', value.tel)
+        this.props.history.replace('/')
+      }
+      else Toast.fail(res.message, 1)
+    })
+  }
+
+  getCode = () => {
+    api.get('/yzm.htm', {
+      ts: '1522432894076',
+      tel: this.props.form.getFieldValue('tel'),
+      type: 'reg'
+    }).then(res => {
+      if (res.success) this.setTime()
+      else Toast.fail(res.message, 1)
+    })
+  }
+
+  setTime = () => {
+    if (this.state.time === 0) {
+      this.setState({ time: 180})
+    } else {
+      this.setState({ time: --this.state.time })
+      setTimeout(this.setTime, 1000)
+    }
   }
 
   render() {
@@ -26,9 +73,9 @@ class Login extends React.Component {
       width: '100%',
       justifyContent: 'space-between'
     }}>
-      <Radio className="my-radio" onChange={() => this.setState({ nature: 'personal'})} checked={this.state.nature === 'personal'}>个人</Radio>
-      <Radio className="my-radio" onChange={() => this.setState({ nature: 'company'})} checked={this.state.nature === 'company'}>企业</Radio>
-      <Radio className="my-radio" onChange={() => this.setState({ nature: 'office'})} checked={this.state.nature === 'office'}>事务所</Radio>
+      <Radio className="my-radio" onChange={() => this.setState({ nature: '1'})} checked={this.state.nature === '1'}>个人</Radio>
+      <Radio className="my-radio" onChange={() => this.setState({ nature: '2'})} checked={this.state.nature === '2'}>企业</Radio>
+      <Radio className="my-radio" onChange={() => this.setState({ nature: '3'})} checked={this.state.nature === '3'}>事务所</Radio>
     </div>)
 
     return (
@@ -39,7 +86,9 @@ class Login extends React.Component {
               <WingBlank>
                 <WingBlank>
                   <Tabs
+                    ref={ref => this.tabs = ref}
                     tabs={tabs}
+                    page={this.state.page}
                     initialPage={0}
                     animated={false}
                     useOnPan={false}
@@ -50,14 +99,15 @@ class Login extends React.Component {
                       <WhiteSpace size='xl' />
                       <List>
                         <InputItem
-                          {...getFieldProps('username')}
-                          placeholder="请输入用户名"
+                          {...getFieldProps('loginTel')}
+                          placeholder="手机号"
                         >
-                          <img src={require('./img/用户名@2x.png')} alt="" />
+                          <img src={require('./img/手机号@2x.png')} alt="" />
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('password')}
-                          placeholder="请输入密码(6-20位)"
+                          {...getFieldProps('loginPassword')}
+                          placeholder="请输入密码"
+                          type='password'
                         >
                           <img src={require('./img/确认密码@2x.png')} alt=""/>
                         </InputItem>
@@ -66,57 +116,59 @@ class Login extends React.Component {
                       <section onClick={() => this.props.history.push('/forget')} style={{ fontSize: '12px', color: '#888', textAlign: 'right' }}>忘记密码?</section>
                       <WhiteSpace size='xl' />
                       <WhiteSpace size='xl' />
-                      <Button style={{ borderRadius: '50px', color: '#fff', backgroundColor: '#ffda7a' }}>登录</Button>
+                      <Button onClick={this.login} style={{ borderRadius: '50px', color: '#fff', backgroundColor: '#ffda7a' }}>登录</Button>
                     </section>
                     <section>
                       <WhiteSpace size='xl' />
                       <List>
                         <List.Item><span className='sex-line_label'></span>{nature}</List.Item>
                         <InputItem
-                          {...getFieldProps('regUsername')}
+                          {...getFieldProps('loginName')}
                           placeholder="输入用户名"
                         >
                           <img src={require('./img/用户名@2x.png')} alt="" />
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regPassword')}
-                          placeholder="输入密码(6-20位)"
+                          {...getFieldProps('password')}
+                          placeholder="输入密码"
+                          type="password"
                         >
                           <img src={require('./img/密码1@2x.png')} alt=""/>
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regVerifyPassword')}
-                          placeholder="确认密码(6-20位)"
+                          {...getFieldProps('password2')}
+                          placeholder="确认密码"
+                          type="password"
                         >
                           <img src={require('./img/确认密码@2x.png')} alt=""/>
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regPhone')}
+                          {...getFieldProps('tel')}
                           placeholder="输入手机号"
                         >
                           <img src={require('./img/手机号@2x.png')} alt=""/>
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regVerifyCode')}
+                          {...getFieldProps('yzm')}
                           placeholder="输入验证码"
                         >
                           <img src={require('./img/验证码@2x.png')} alt=""/>
-                          <Button style={{ position: 'absolute', right: 0, top: '0.16rem', color: '#f3b439' }} size='small'>获取验证码</Button>
+                          {this.state.time === 180 ? <Button style={{ position: 'absolute', right: 0, top: '0.16rem', color: '#f3b439' }} size='small' onClick={this.getCode}>获取验证码</Button> : <Button style={{ position: 'absolute', right: 0, top: '0.16rem', color: '#f3b439' }} size='small'>{this.state.time}S后再试</Button> }
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regCompany')}
+                          {...getFieldProps('company')}
                           placeholder="输入单位名称"
                         >
                           <img src={require('./img/单位@2x.png')} alt=""/>
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regJob')}
+                          {...getFieldProps('post')}
                           placeholder="输入职位"
                         >
                           <img src={require('./img/职位@2x.png')} alt=""/>
                         </InputItem>
                         <InputItem
-                          {...getFieldProps('regCountry')}
+                          {...getFieldProps('country')}
                           placeholder="输入国籍"
                         >
                           <img src={require('./img/国际@2x.png')} alt=""/>
@@ -124,7 +176,7 @@ class Login extends React.Component {
                       </List>
                       <WhiteSpace size='xl' />
                       <WhiteSpace size='xl' />
-                      <Button style={{ borderRadius: '50px', color: '#fff', backgroundColor: '#ffda7a' }}>注册</Button>
+                      <Button style={{ borderRadius: '50px', color: '#fff', backgroundColor: '#ffda7a' }} onClick={this.register}>注册</Button>
                       <WhiteSpace size='xl' />
                       <section style={{ textAlign: 'center' }}>
                         <p style={{ fontSize: '12px', color: '#333' }}>注册即表示同意</p>
