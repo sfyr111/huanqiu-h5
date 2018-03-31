@@ -86,22 +86,22 @@ class GoldLibraryDetailForm extends Component{
     return (
       <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
         <List>
-          <InputItem {...getFieldProps('name')} clear placeholder="请输入姓名">姓名</InputItem>
+          <InputItem {...getFieldProps('name')} clear placeholder="">姓名</InputItem>
           <Picker data={this.state.sexOption} cols={1} {...getFieldProps('calling')} className="forss">
             <List.Item arrow="horizontal">称谓</List.Item>
           </Picker>
           <Picker data={this.state.areaOption} cols={1} {...getFieldProps('area')} className="forss">
             <List.Item arrow="horizontal">地区</List.Item>
           </Picker>
-          <InputItem {...getFieldProps('company')} clear placeholder="请输入所在单位">所在单位</InputItem>
-          <InputItem {...getFieldProps('post')} clear placeholder="请输入职务">职务</InputItem>
-          <InputItem {...getFieldProps('email')} clear placeholder="请输入邮箱地址">邮箱地址</InputItem>
-          <InputItem {...getFieldProps('tel')} clear placeholder="请输入联系电话">联系电话</InputItem>
-          <InputItem {...getFieldProps('companyAdr')} clear placeholder="请输入单位地址">单位地址</InputItem>
-          <InputItem {...getFieldProps('experience')} clear placeholder="请输入从业经历">从业经历</InputItem>
-          <InputItem {...getFieldProps('business')} clear placeholder="请输入擅长业务">擅长业务</InputItem>
-          <InputItem {...getFieldProps('skilledZone')} clear placeholder="请输入擅长领域">擅长领域 </InputItem>
-          <InputItem {...getFieldProps('qualified')} clear placeholder="请输入相关资格">相关资格 </InputItem>
+          <InputItem {...getFieldProps('company')} clear placeholder="">所在单位</InputItem>
+          <InputItem {...getFieldProps('post')} clear placeholder="">职务</InputItem>
+          <InputItem {...getFieldProps('email')} clear placeholder="">邮箱地址</InputItem>
+          <InputItem {...getFieldProps('tel')} clear placeholder="">联系电话</InputItem>
+          <InputItem {...getFieldProps('companyAdr')} clear placeholder="">单位地址</InputItem>
+          <InputItem {...getFieldProps('experience')} clear placeholder="">从业经历</InputItem>
+          <InputItem {...getFieldProps('business')} clear placeholder="">擅长业务</InputItem>
+          <InputItem {...getFieldProps('skilledZone')} clear placeholder="">擅长领域 </InputItem>
+          <InputItem {...getFieldProps('qualified')} clear placeholder="">相关资格 </InputItem>
           <Item><div>上传图片</div>
             <ImagePicker files={this.state.imgHeadFiles} multiple={false} selectable={this.state.imgHeadFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgHeadFiles') }} />
           </Item>

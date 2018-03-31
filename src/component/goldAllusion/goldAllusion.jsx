@@ -51,9 +51,9 @@ class GoldAllusion extends React.Component {
                 <section className='tab-item' key={key}>
                   <ul>
                     {mapper[key].map((item, index) => (
-                      <li key={item.id}>
+                      <li key={item.id} onClick={() => openUrl(item.imgHead)}>
                         <span>{item.name}</span>
-                        <img onClick={() => openUrl(item.imgHead)} src={require('./img/下载@2x.png')} alt=""/>
+                        {/*<img onClick={() => openUrl(item.imgHead)} src={require('./img/下载@2x.png')} alt=""/>*/}
                       </li>
                     ))}
                   </ul>

@@ -9,8 +9,6 @@ import './goldLibraryDetail.styl'
 
 const page = {
   path: '/product/wiki/goldLibrary/:id/form',
-  // uploadData 需要传递，里面的表单数据已经打包完成，可以用uploadData函数拿出来。默认是console.log(data)打印在控制台
-  // sex: 0代表女 1代表男
   component: GoldLibraryDetailForm
 }
 
@@ -51,7 +49,7 @@ class GoldLibraryDetail extends React.Component {
               <footer>擅长领域: {detail.skilledZone}</footer>
             </header>
             <main>
-              <p style={{ height: '648px', overflow: 'auto' }} dangerouslySetInnerHTML={{ __html: detail.content }} />
+              <article style={{ height: '648px', overflow: 'auto' }} dangerouslySetInnerHTML={{ __html: detail.content }} />
               <Button style={{ color: '#fff', backgroundColor: '#ffda7a' }} onClick={this.onClick}>申请入库</Button>
             </main>
           </div>

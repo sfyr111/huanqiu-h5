@@ -64,10 +64,8 @@ class Union extends React.Component {
                     {mapper[key].map((item, index) => (
                       <li key={item.id} onClick={() => this.props.history.push(`/product/union/${item.id}`)}>
                         <section>
-                          <figure><img src={item.imgHead} /></figure>
                           <main>
-                            <p>姓名: <span>{item.name}</span></p>
-                            <p>职务: <span>{item.post}</span></p>
+                            <h1 style={{ fontSize: 14, fontWeight: 600, color: '#333', paddingBottom: '.2rem' }}>{item.title}</h1>
                             <p>地区: <span>{item.areaFmt}</span></p>
                           </main>
                         </section>

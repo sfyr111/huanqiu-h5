@@ -24,26 +24,31 @@ class Job extends React.Component {
       <WeixinTitle title='招聘' src=''>
         <div id="job" className="main">
           <div className="job-content">
-            {jobList.map((item, index) => (
+            {jobList.length > 0 ? jobList.map((item, index) => (
               <Card key={index}>
                 <Card.Header
                   title={item.title + item.region}
                 />
                 <Card.Body>
                   <p>{item.brief}</p>
-                  {item.remarks.split('\n').slice(0, -1).map(v => <p style={{ fontSize: 12 }}>{v}</p>)}
+                  {item.remarks.split('\n').slice(0, -1).map(v => <p key={v} style={{ fontSize: 12 }}>{v}</p>)}
                 </Card.Body>
                 <Card.Footer content={
                   <Accordion>
                     <Accordion.Panel header="职位描述">
                       <List>
-                        {item.requirement.split('\n').slice(0, -1).map(v => <List.Item>{v}</List.Item>)}
+                        {item.requirement.split('\n').slice(0, -1).map(v => <List.Item key={v}>{v}</List.Item>)}
                       </List>
                     </Accordion.Panel>
                   </Accordion>
                 } />
               </Card>
-            ))}
+            )) : <section style={{
+                            display: 'flex',
+                            height: '100vh',
+                            justifyContent: 'center',
+                            alignItems: 'center'}}
+            ><span>暂无招聘信息</span></section>}
           </div>
         </div>
       </WeixinTitle>
