@@ -2,7 +2,8 @@
 import axios from 'axios'
 import qs from 'qs'
 
-axios.defaults.baseURL = process.env.API_BASE || ''
+// axios.defaults.baseURL = process.env.API_BASE || ''
+axios.defaults.baseURL = 'http://hqzj.cctt.org.cn'
 
 axios.interceptors.request.use((config) => {
   return config

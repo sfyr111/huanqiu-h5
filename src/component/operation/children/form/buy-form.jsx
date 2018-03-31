@@ -84,9 +84,9 @@ class BuyForm extends Component{
     return (
       <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
         <List>
-          <InputItem {...getFieldProps('applyName')} clear placeholder="姓名">姓名</InputItem>
-          <InputItem {...getFieldProps('applyTel')} clear placeholder="手机">手机</InputItem>
-          <InputItem {...getFieldProps('applyEmail')} clear placeholder="邮箱">邮箱</InputItem>
+          <InputItem {...getFieldProps('applyName')} clear placeholder="">姓名</InputItem>
+          <InputItem {...getFieldProps('applyTel')} clear placeholder="">手机</InputItem>
+          <InputItem {...getFieldProps('applyEmail')} clear placeholder="">邮箱</InputItem>
           <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
       </div>

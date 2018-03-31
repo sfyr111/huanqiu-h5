@@ -84,12 +84,12 @@ class LangForm extends Component{
     return (
       <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
         <List>
-          <InputItem {...getFieldProps('applyName')} clear placeholder="联系人">联系人</InputItem>
-          <InputItem {...getFieldProps('applyTel')} clear placeholder="手机">手机</InputItem>
-          <InputItem {...getFieldProps('applyEmail')} clear placeholder="邮箱">邮箱</InputItem>
-          <InputItem {...getFieldProps('companyName')} clear placeholder="所属单位">所属单位</InputItem>
-          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="职务">职务</InputItem>
-          <InputItem {...getFieldProps('postalAdr')} clear placeholder="语种对">语种对</InputItem>
+          <InputItem {...getFieldProps('applyName')} clear placeholder="">联系人</InputItem>
+          <InputItem {...getFieldProps('applyTel')} clear placeholder="">手机</InputItem>
+          <InputItem {...getFieldProps('applyEmail')} clear placeholder="">邮箱</InputItem>
+          <InputItem {...getFieldProps('companyName')} clear placeholder="">所属单位</InputItem>
+          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="">职务</InputItem>
+          <InputItem {...getFieldProps('postalAdr')} clear placeholder="">语种对</InputItem>
           <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
       </div>

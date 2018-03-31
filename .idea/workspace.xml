@@ -2,186 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3cba74-10ff-40a5-89a1-f88802e36df5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-PCT申请支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-PCT申请支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-智金库@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-智金库@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-紫萌青少年创新发展基金@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-紫萌青少年创新发展基金@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-紫金峰会logo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/1-紫金峰会logo@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-创新大赛@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-创新大赛@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-智通知识产权运营基金@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-智通知识产权运营基金@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-智金典@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-智金典@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-马德里商标支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/2-马德里商标支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/3-企业沙龙@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/3-企业沙龙@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/3-海外案例@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/3-海外案例@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/3-维权支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/3-维权支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/4-专利数据库@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/4-专利数据库@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/4-多语支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/4-多语支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/4-学术研讨@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/4-学术研讨@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/5-优蚁秘书@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/5-优蚁秘书@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/5-智金大讲堂@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/5-智金大讲堂@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/6-补贴申报@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/6-补贴申报@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金拍卖@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金拍卖@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金无忧@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金无忧@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金百科@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金百科@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金策划@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金策划@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金联盟@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金联盟@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金运营@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/free/img/智金运营@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-PCT申请支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-PCT申请支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-智金库@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-智金库@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-紫萌青少年创新发展基金@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-紫萌青少年创新发展基金@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-紫金峰会logo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/1-紫金峰会logo@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-创新大赛@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-创新大赛@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-智通知识产权运营基金@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-智通知识产权运营基金@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-智金典@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-智金典@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-马德里商标支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/2-马德里商标支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/3-企业沙龙@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/3-企业沙龙@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/3-海外案例@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/3-海外案例@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/3-维权支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/3-维权支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/4-专利数据库@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/4-专利数据库@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/4-多语支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/4-多语支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/4-学术研讨@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/4-学术研讨@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/5-优蚁秘书@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/5-优蚁秘书@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/5-智金大讲堂@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/5-智金大讲堂@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/6-补贴申报@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/6-补贴申报@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金拍卖@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金拍卖@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金无忧@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金无忧@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金百科@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金百科@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金策划@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金策划@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金联盟@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金联盟@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金运营@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/operation/img/智金运营@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-PCT申请支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-PCT申请支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-智金库@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-智金库@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-紫萌青少年创新发展基金@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-紫萌青少年创新发展基金@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-紫金峰会logo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/1-紫金峰会logo@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-创新大赛@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-创新大赛@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-智通知识产权运营基金@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-智通知识产权运营基金@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-智金典@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-智金典@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-马德里商标支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/2-马德里商标支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/3-企业沙龙@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/3-企业沙龙@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/3-海外案例@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/3-海外案例@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/3-维权支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/3-维权支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/4-专利数据库@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/4-专利数据库@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/4-多语支援@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/4-多语支援@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/4-学术研讨@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/4-学术研讨@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/5-优蚁秘书@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/5-优蚁秘书@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/5-智金大讲堂@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/5-智金大讲堂@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/6-补贴申报@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/6-补贴申报@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金拍卖@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金拍卖@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金无忧@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金无忧@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金百科@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金百科@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金策划@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金策划@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金联盟@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金联盟@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金运营@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/component/plan/img/智金运营@3x.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/free/form/index.jsx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/component/free/form/index.styl" afterPath="$PROJECT_DIR$/src/component/free/form/pct.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/navList/img/我的@2x.png" afterPath="$PROJECT_DIR$/src/component/navList/img/我的@2x.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/static/js/entry.e4263fdf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/static/js/entry.e4263fdf.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public.zip" afterPath="$PROJECT_DIR$/server/public.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/js/util.js" afterPath="$PROJECT_DIR$/src/common/js/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx" afterPath="$PROJECT_DIR$/src/component/advisory-detail/advisory-detail.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/advisory/advisory.jsx" afterPath="$PROJECT_DIR$/src/component/advisory/advisory.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/auction/auction.jsx" afterPath="$PROJECT_DIR$/src/component/auction/auction.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/auction/form/auction-form.jsx" afterPath="$PROJECT_DIR$/src/component/auction/form/auction-form.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/asset-manifest.json" afterPath="$PROJECT_DIR$/server/public/asset-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/index.html" afterPath="$PROJECT_DIR$/server/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/service-worker.js" afterPath="$PROJECT_DIR$/server/public/service-worker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/static/js/antd-mobile.js" afterPath="$PROJECT_DIR$/server/public/static/js/antd-mobile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/public/static/js/antd-mobile.js.map" afterPath="$PROJECT_DIR$/server/public/static/js/antd-mobile.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/api/service.js" afterPath="$PROJECT_DIR$/src/common/api/service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/auction/form/join-form.jsx" afterPath="$PROJECT_DIR$/src/component/auction/form/join-form.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/lang.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/lang.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/madrid.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/madrid.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/pct.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/pct.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/power.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/power.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" afterPath="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/form/lang.jsx" afterPath="$PROJECT_DIR$/src/component/free/form/lang.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/form/madrid.jsx" afterPath="$PROJECT_DIR$/src/component/free/form/madrid.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/form/pct.jsx" afterPath="$PROJECT_DIR$/src/component/free/form/pct.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/form/power.jsx" afterPath="$PROJECT_DIR$/src/component/free/form/power.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/form/subsidy.jsx" afterPath="$PROJECT_DIR$/src/component/free/form/subsidy.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/free/free.styl" afterPath="$PROJECT_DIR$/src/component/free/free.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" afterPath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl" afterPath="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/job/job.jsx" afterPath="$PROJECT_DIR$/src/component/job/job.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/job/job.styl" afterPath="$PROJECT_DIR$/src/component/job/job.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/mine/mine.jsx" afterPath="$PROJECT_DIR$/src/component/mine/mine.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx" afterPath="$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx" afterPath="$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" afterPath="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/operation.jsx" afterPath="$PROJECT_DIR$/src/component/operation/operation.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/operation/operation.styl" afterPath="$PROJECT_DIR$/src/component/operation/operation.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/plan/plan.jsx" afterPath="$PROJECT_DIR$/src/component/plan/plan.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/plan/plan.styl" afterPath="$PROJECT_DIR$/src/component/plan/plan.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/product.jsx" afterPath="$PROJECT_DIR$/src/component/product/product.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/product/product.styl" afterPath="$PROJECT_DIR$/src/component/product/product.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/component/wiki/wiki.styl" afterPath="$PROJECT_DIR$/src/component/wiki/wiki.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/forget/forget.jsx" afterPath="$PROJECT_DIR$/src/container/forget/forget.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/login/login.jsx" afterPath="$PROJECT_DIR$/src/container/login/login.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/container/test/test.jsx" afterPath="$PROJECT_DIR$/src/container/test/test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer.js" afterPath="$PROJECT_DIR$/src/reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/advisory.redux.js" afterPath="$PROJECT_DIR$/src/redux/advisory.redux.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -195,51 +35,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/product/product.styl">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wiki.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/wiki/wiki.styl">
+      <file leaf-file-name="donate-form.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="396">
+              <caret line="85" column="74" lean-forward="false" selection-start-line="85" selection-start-column="74" selection-end-line="85" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="free.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/free/free.styl">
+      <file leaf-file-name="buy-form.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="81" column="46" lean-forward="true" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="operation.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/operation/operation.styl">
+      <file leaf-file-name="pct.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            <state relative-caret-position="264">
+              <caret line="95" column="121" lean-forward="false" selection-start-line="95" selection-start-column="121" selection-end-line="95" selection-end-column="121" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plan.styl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/component/plan/plan.styl">
+      <file leaf-file-name="madrid.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/free/form/madrid.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="363">
+              <caret line="95" column="71" lean-forward="false" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pct.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="power.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/free/form/power.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="98" column="58" lean-forward="true" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="join-form.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/auction/form/join-form.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="90" column="89" lean-forward="true" selection-start-line="90" selection-start-column="89" selection-end-line="90" selection-end-column="89" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -249,8 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logoUrlFiles</find>
-      <find>PctForm</find>
       <find>PowerForm</find>
       <find>GoldLibraryDetailForm</find>
       <find>经营范围</find>
@@ -279,6 +169,8 @@
       <find>http://temp.im/160x160</find>
       <find>background</find>
       <find>''</find>
+      <find>placeholder</find>
+      <find>placeholder=&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -287,9 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/redux/union.redux.js" />
-        <option value="$PROJECT_DIR$/src/redux/goldLibrary.redux.js" />
-        <option value="$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.jsx" />
         <option value="$PROJECT_DIR$/src/component/goldLibraryDetail/goldLibraryDetail.jsx" />
         <option value="$PROJECT_DIR$/src/redux/overseas.redux.js" />
         <option value="$PROJECT_DIR$/src/component/overseas/overseas.jsx" />
@@ -310,34 +199,37 @@
         <option value="$PROJECT_DIR$/src/container/test/test.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/form/index.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/children/pct.jsx" />
-        <option value="$PROJECT_DIR$/src/component/free/form/pct.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/children/madrid.jsx" />
         <option value="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.jsx" />
-        <option value="$PROJECT_DIR$/src/component/free/form/madrid.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/children/power.jsx" />
-        <option value="$PROJECT_DIR$/src/component/free/form/power.jsx" />
-        <option value="$PROJECT_DIR$/src/component/free/form/lang.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/children/lang.jsx" />
         <option value="$PROJECT_DIR$/src/component/free/children/subsidy.jsx" />
-        <option value="$PROJECT_DIR$/src/component/free/form/subsidy.jsx" />
         <option value="$PROJECT_DIR$/src/component/goldLibraryDetailForm/index.styl" />
         <option value="$PROJECT_DIR$/src/component/auction/auction.jsx" />
-        <option value="$PROJECT_DIR$/src/component/auction/form/join-form.jsx" />
         <option value="$PROJECT_DIR$/src/component/auction/form/auction-form.jsx" />
         <option value="$PROJECT_DIR$/src/component/operation/children/operationFund.jsx" />
-        <option value="$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx" />
-        <option value="$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/component/mine/mine.jsx" />
         <option value="$PROJECT_DIR$/src/container/login/login.jsx" />
         <option value="$PROJECT_DIR$/src/container/forget/forget.jsx" />
         <option value="$PROJECT_DIR$/src/component/job/job.jsx" />
-        <option value="$PROJECT_DIR$/src/common/js/util.js" />
         <option value="$PROJECT_DIR$/src/component/product/product.styl" />
         <option value="$PROJECT_DIR$/src/component/wiki/wiki.styl" />
         <option value="$PROJECT_DIR$/src/component/free/free.styl" />
         <option value="$PROJECT_DIR$/src/component/operation/operation.styl" />
         <option value="$PROJECT_DIR$/src/component/plan/plan.styl" />
+        <option value="$PROJECT_DIR$/server/public/index.html" />
+        <option value="$PROJECT_DIR$/src/common/api/service.js" />
+        <option value="$PROJECT_DIR$/src/common/js/util.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx" />
+        <option value="$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/pct.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/lang.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/subsidy.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/power.jsx" />
+        <option value="$PROJECT_DIR$/src/component/free/form/madrid.jsx" />
+        <option value="$PROJECT_DIR$/src/component/auction/form/join-form.jsx" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -359,10 +251,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="549" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1131" />
+    <option name="width" value="1680" />
     <option name="height" value="952" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -411,7 +302,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,112 +312,13 @@
             <path>
               <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
               <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="operation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="plan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="plan" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="wiki" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="forget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huanqiu-h5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huanqiu-h5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,15 +391,17 @@
       <workItem from="1522288801758" duration="302000" />
       <workItem from="1522289438586" duration="2772000" />
       <workItem from="1522302171615" duration="3756000" />
-      <workItem from="1522331365202" duration="43209000" />
+      <workItem from="1522331365202" duration="43508000" />
+      <workItem from="1522471426268" duration="474000" />
+      <workItem from="1522513566613" duration="732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165786000" />
+    <option name="totallyTimeSpent" value="167291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="952" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10729355" sideWeight="0.48594847" order="0" side_tool="false" content_ui="combo" />
@@ -618,9 +411,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24154025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24154025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13863774" sideWeight="0.5140515" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -628,6 +420,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="167" y="123" width="1079" height="749" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -646,50 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/lectureHallDetail/lectureHallDetail.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/lectureHall/lectureHall.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/goldAllusion/goldAllusion.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/union/union.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/union.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/union/union.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -704,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,9 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,17 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="39" column="147" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="147" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,24 +552,6 @@
           <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="147" />
           <folding>
             <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/madrid.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -887,16 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/power.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="103" selection-end-column="98" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/free/children/power.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -907,21 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/subsidy.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/goldLibrary/goldLibrary.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,17 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/lang.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="80" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,26 +626,6 @@
           <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/auction/form/join-form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1003,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/mine/mine.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1018,22 +667,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,27 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/js/util.js">
+    <entry file="file://$PROJECT_DIR$/src/component/plan/plan.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/product/product.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/wiki/wiki.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1093,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,14 +715,164 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/wiki/wiki.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/plan/plan.styl">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="49" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="1450" column="52" lean-forward="true" selection-start-line="1450" selection-start-column="52" selection-end-line="1450" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="193" column="12" lean-forward="true" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/api/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#21#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/product/product.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/donate-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="85" column="74" lean-forward="false" selection-start-line="85" selection-start-column="74" selection-end-line="85" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/operation/children/form/buy-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="81" column="46" lean-forward="true" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/pct.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="95" column="121" lean-forward="false" selection-start-line="95" selection-start-column="121" selection-end-line="95" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/madrid.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="95" column="71" lean-forward="false" selection-start-line="95" selection-start-column="71" selection-end-line="95" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/lang.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="86" column="72" lean-forward="false" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
+          <caret line="87" column="71" lean-forward="false" selection-start-line="87" selection-start-column="71" selection-end-line="87" selection-end-column="71" />
+          <caret line="88" column="73" lean-forward="false" selection-start-line="88" selection-start-column="73" selection-end-line="88" selection-end-column="73" />
+          <caret line="89" column="74" lean-forward="false" selection-start-line="89" selection-start-column="74" selection-end-line="89" selection-end-column="74" />
+          <caret line="90" column="76" lean-forward="false" selection-start-line="90" selection-start-column="76" selection-end-line="90" selection-end-column="76" />
+          <caret line="91" column="72" lean-forward="false" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/subsidy.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="125" column="74" lean-forward="false" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/free/form/power.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="98" column="58" lean-forward="true" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/auction/form/join-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="90" column="89" lean-forward="true" selection-start-line="90" selection-start-column="89" selection-end-line="90" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

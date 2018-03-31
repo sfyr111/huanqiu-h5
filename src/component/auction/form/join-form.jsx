@@ -84,15 +84,15 @@ class JoinForm extends Component{
     return (
       <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
         <List>
-          <InputItem {...getFieldProps('companyName')} clear placeholder="专利名称">专利名称</InputItem>
-          <InputItem {...getFieldProps('lang')} clear placeholder="标的类型">标的类型</InputItem>
-          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="专利号">专利号</InputItem>
-          <InputItem {...getFieldProps('content')} clear placeholder="专利简介">专利简介</InputItem>
-          <InputItem {...getFieldProps('prodName')} clear placeholder="相关材料">相关材料</InputItem>
-          <InputItem {...getFieldProps('legalPerson')} clear placeholder="专利权持有人">专利权持有人</InputItem>
-          <InputItem {...getFieldProps('applyName')} clear placeholder="联系人">联系人</InputItem>
-          <InputItem {...getFieldProps('applyTel')} clear placeholder="手机">手机</InputItem>
-          <InputItem {...getFieldProps('applyEmail')} clear placeholder="邮箱">邮箱</InputItem>
+          <InputItem {...getFieldProps('companyName')} clear placeholder="">专利名称</InputItem>
+          <InputItem {...getFieldProps('lang')} clear placeholder="">标的类型</InputItem>
+          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="">专利号</InputItem>
+          <InputItem {...getFieldProps('content')} clear placeholder="">专利简介</InputItem>
+          <InputItem {...getFieldProps('prodName')} clear placeholder="">相关材料</InputItem>
+          <InputItem {...getFieldProps('legalPerson')} clear placeholder="">专利权持有人</InputItem>
+          <InputItem {...getFieldProps('applyName')} clear placeholder="">联系人</InputItem>
+          <InputItem {...getFieldProps('applyTel')} clear placeholder="">手机</InputItem>
+          <InputItem {...getFieldProps('applyEmail')} clear placeholder="">邮箱</InputItem>
           <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
       </div>

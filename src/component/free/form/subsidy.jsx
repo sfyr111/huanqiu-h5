@@ -123,26 +123,26 @@ class SubsidyForm extends Component{
     return (
       <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
         <List>
-          <InputItem {...getFieldProps('companyName')} clear placeholder="企业名称">企业名称</InputItem>
+          <InputItem {...getFieldProps('companyName')} clear placeholder="">企业名称</InputItem>
           <Picker data={this.state.enterpriseNatureOp} cols={1} {...getFieldProps('enterpriseNature')} className="forss">
             <List.Item arrow="horizontal">企业性质</List.Item>
           </Picker>
-          <InputItem {...getFieldProps('uniformCode')} clear placeholder="统一社会信用代码">统一社会信用代码</InputItem>
-          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="注册地址">注册地址</InputItem>
-          <InputItem {...getFieldProps('postalAdr')} clear placeholder="通信地址">通信地址</InputItem>
-          <InputItem {...getFieldProps('cityArea')} clear placeholder="所处市/区">所处市/区</InputItem>
-          <InputItem {...getFieldProps('hiTechZone')} clear placeholder="所处高新区">所处高新区</InputItem>
-          <InputItem {...getFieldProps('registeredCapital')} clear placeholder="注册资本">注册资本</InputItem>
-          <InputItem {...getFieldProps('paidCapital')} clear placeholder="实收资本">实收资本</InputItem>
+          <InputItem {...getFieldProps('uniformCode')} clear placeholder="">统一社会信用代码</InputItem>
+          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="">注册地址</InputItem>
+          <InputItem {...getFieldProps('postalAdr')} clear placeholder="">通信地址</InputItem>
+          <InputItem {...getFieldProps('cityArea')} clear placeholder="/区">所处市/区</InputItem>
+          <InputItem {...getFieldProps('hiTechZone')} clear placeholder="">所处高新区</InputItem>
+          <InputItem {...getFieldProps('registeredCapital')} clear placeholder="">注册资本</InputItem>
+          <InputItem {...getFieldProps('paidCapital')} clear placeholder="">实收资本</InputItem>
           <Picker data={this.state.enterpriseScaleOp} cols={1} {...getFieldProps('enterpriseScale')} className="forss">
             <List.Item arrow="horizontal">企业规模</List.Item>
           </Picker>
-          <InputItem {...getFieldProps('legalPerson')} clear placeholder="法定代表人">法定代表人</InputItem>
-          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="法定代表人电话">法定代表人电话</InputItem>
-          <InputItem {...getFieldProps('contacts')} clear placeholder="联系人">联系人</InputItem>
-          <InputItem {...getFieldProps('contactsTel')} clear placeholder="联系人电话">联系人电话</InputItem>
-          <InputItem {...getFieldProps('enterpriseEmpNum')} clear placeholder="企业从业人员">企业从业人数</InputItem>
-          <InputItem {...getFieldProps('devEmpNum')} clear placeholder="研发人数">研发人数</InputItem>
+          <InputItem {...getFieldProps('legalPerson')} clear placeholder="">法定代表人</InputItem>
+          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="">法定代表人电话</InputItem>
+          <InputItem {...getFieldProps('contacts')} clear placeholder="">联系人</InputItem>
+          <InputItem {...getFieldProps('contactsTel')} clear placeholder="">联系人电话</InputItem>
+          <InputItem {...getFieldProps('enterpriseEmpNum')} clear placeholder="">企业从业人数</InputItem>
+          <InputItem {...getFieldProps('devEmpNum')} clear placeholder="">研发人数</InputItem>
 
           <Picker data={this.state.factoryPropertyOp} cols={1} {...getFieldProps('factoryProperty')} className="forss">
             <List.Item arrow="horizontal">经营场所产权性质</List.Item>
@@ -156,53 +156,53 @@ class SubsidyForm extends Component{
             <List.Item arrow="horizontal">所属行业</List.Item>
           </Picker>
 
-          <InputItem {...getFieldProps('scope')} clear placeholder="经营范围">经营范围</InputItem>
+          <InputItem {...getFieldProps('scope')} clear placeholder="">经营范围</InputItem>
 
           <Picker data={this.state.projectOp} cols={1} {...getFieldProps('project')} className="forss">
             <List.Item arrow="horizontal">试点示范工作情况</List.Item>
           </Picker>
 
-          <InputItem {...getFieldProps('totalAssets2')} clear placeholder="上上年度总资产">上上年度总资产</InputItem>
-          <InputItem {...getFieldProps('totalAssets')} clear placeholder="上年度总资产">上年度总资产</InputItem>
-          <InputItem {...getFieldProps('netAssets2')} clear placeholder="上上年度净资产">上上年度净资产</InputItem>
-          <InputItem {...getFieldProps('netAssets')} clear placeholder="上年度净资产">上年度净资产</InputItem>
-          <InputItem {...getFieldProps('mainIncome2')} clear placeholder="上上年度主营业务收入">上上年度主营业务收入</InputItem>
-          <InputItem {...getFieldProps('mainIncome')} clear placeholder="上年度主营业务收入">上年度主营业务收入</InputItem>
-          <InputItem {...getFieldProps('netProfits2')} clear placeholder="上上年度净利润">上上年度净利润</InputItem>
-          <InputItem {...getFieldProps('netProfits')} clear placeholder="上年度净利润">上年度净利润</InputItem>
-          <InputItem {...getFieldProps('debtAssetRatio2')} clear placeholder="上上年度资产负债率">上上年度资产负债率</InputItem>
-          <InputItem {...getFieldProps('debtAssetRatio')} clear placeholder="上年度资产负债率">上年度资产负债率</InputItem>
-          <InputItem {...getFieldProps('devMoney2')} clear placeholder="上上年度研发经费投入">上上年度研发经费投入</InputItem>
-          <InputItem {...getFieldProps('devMoney')} clear placeholder="上年度研发经费投入">上年度研发经费投入</InputItem>
-          <InputItem {...getFieldProps('prodName')} clear placeholder="产品名称">产品名称</InputItem>
+          <InputItem {...getFieldProps('totalAssets2')} clear placeholder="">上上年度总资产</InputItem>
+          <InputItem {...getFieldProps('totalAssets')} clear placeholder="">上年度总资产</InputItem>
+          <InputItem {...getFieldProps('netAssets2')} clear placeholder="">上上年度净资产</InputItem>
+          <InputItem {...getFieldProps('netAssets')} clear placeholder="">上年度净资产</InputItem>
+          <InputItem {...getFieldProps('mainIncome2')} clear placeholder="">上上年度主营业务收入</InputItem>
+          <InputItem {...getFieldProps('mainIncome')} clear placeholder="">上年度主营业务收入</InputItem>
+          <InputItem {...getFieldProps('netProfits2')} clear placeholder="">上上年度净利润</InputItem>
+          <InputItem {...getFieldProps('netProfits')} clear placeholder="">上年度净利润</InputItem>
+          <InputItem {...getFieldProps('debtAssetRatio2')} clear placeholder="">上上年度资产负债率</InputItem>
+          <InputItem {...getFieldProps('debtAssetRatio')} clear placeholder="">上年度资产负债率</InputItem>
+          <InputItem {...getFieldProps('devMoney2')} clear placeholder="">上上年度研发经费投入</InputItem>
+          <InputItem {...getFieldProps('devMoney')} clear placeholder="">上年度研发经费投入</InputItem>
+          <InputItem {...getFieldProps('prodName')} clear placeholder="">产品名称</InputItem>
           <Picker data={this.state.prodStageOp} cols={1} {...getFieldProps('prodStage')} className="forss">
             <List.Item arrow="horizontal">产品阶段</List.Item>
           </Picker>
-          <InputItem {...getFieldProps('devIncomeRatio')} clear placeholder="占企业销售收入总额比例">占企业销售收入总额比例</InputItem>
+          <InputItem {...getFieldProps('devIncomeRatio')} clear placeholder="">占企业销售收入总额比例</InputItem>
 
           <WhiteSpace />
           <Item><div>发明专利:</div></Item>
-          <InputItem {...getFieldProps('patentInventions1')} clear placeholder="申请量">申请量</InputItem>
-          <InputItem {...getFieldProps('patentInventions2')} clear placeholder="授权量">授权量</InputItem>
-          <InputItem {...getFieldProps('patentInventions3')} clear placeholder="有效专利量">有效专利量</InputItem>
+          <InputItem {...getFieldProps('patentInventions1')} clear placeholder="">申请量</InputItem>
+          <InputItem {...getFieldProps('patentInventions2')} clear placeholder="">授权量</InputItem>
+          <InputItem {...getFieldProps('patentInventions3')} clear placeholder="">有效专利量</InputItem>
 
           <WhiteSpace />
           <Item><div>实用新型专利:</div></Item>
-          <InputItem {...getFieldProps('patentNew1')} clear placeholder="申请量">申请量</InputItem>
-          <InputItem {...getFieldProps('patentNew2')} clear placeholder="授权量">授权量</InputItem>
-          <InputItem {...getFieldProps('patentNew3')} clear placeholder="有效专利量">有效专利量</InputItem>
+          <InputItem {...getFieldProps('patentNew1')} clear placeholder="">申请量</InputItem>
+          <InputItem {...getFieldProps('patentNew2')} clear placeholder="">授权量</InputItem>
+          <InputItem {...getFieldProps('patentNew3')} clear placeholder="">有效专利量</InputItem>
 
           <WhiteSpace />
           <Item><div>外观设计专利:</div></Item>
-          <InputItem {...getFieldProps('patentDesign1')} clear placeholder="申请量">申请量</InputItem>
-          <InputItem {...getFieldProps('patentDesign2')} clear placeholder="授权量">授权量</InputItem>
-          <InputItem {...getFieldProps('patentDesign3')} clear placeholder="有效专利量">有效专利量</InputItem>
+          <InputItem {...getFieldProps('patentDesign1')} clear placeholder="">申请量</InputItem>
+          <InputItem {...getFieldProps('patentDesign2')} clear placeholder="">授权量</InputItem>
+          <InputItem {...getFieldProps('patentDesign3')} clear placeholder="">有效专利量</InputItem>
 
           <WhiteSpace />
           <Item><div>国外专利:</div></Item>
-          <InputItem {...getFieldProps('patentForeign1')} clear placeholder="申请量">申请量</InputItem>
-          <InputItem {...getFieldProps('patentForeign2')} clear placeholder="授权量">授权量</InputItem>
-          <InputItem {...getFieldProps('patentForeign3')} clear placeholder="有效专利量">有效专利量</InputItem>
+          <InputItem {...getFieldProps('patentForeign1')} clear placeholder="">申请量</InputItem>
+          <InputItem {...getFieldProps('patentForeign2')} clear placeholder="">授权量</InputItem>
+          <InputItem {...getFieldProps('patentForeign3')} clear placeholder="">有效专利量</InputItem>
 
           <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
