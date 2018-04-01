@@ -82,35 +82,37 @@ class PowerForm extends Component{
     const { getFieldProps } = this.props.form;
 
     return (
-      <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
+      <div className='goldLibraryDetailForm-component' style={{ background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
+        <div className="form-content" style={{ height: '19.8666667rem', overflow: 'auto' }}>
         <List>
-          <InputItem {...getFieldProps('companyName')} clear placeholder="">企业名称</InputItem>
+          <InputItem {...getFieldProps('companyName')} clear placeholder="">企业名称:</InputItem>
           <Picker data={this.state.enterpriseNatureOp} cols={1} {...getFieldProps('enterpriseNature')} className="forss">
-            <List.Item arrow="horizontal">企业性质</List.Item>
+            <List.Item arrow="horizontal">企业性质:</List.Item>
           </Picker>
-          <InputItem {...getFieldProps('uniformCode')} clear placeholder="">统一社会信用代码</InputItem>
-          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="">注册地址</InputItem>
-          <InputItem {...getFieldProps('postalAdr')} clear placeholder="">通信地址</InputItem>
-          <InputItem {...getFieldProps('cityArea')} clear placeholder="">所处市/区</InputItem>
-          <InputItem {...getFieldProps('hiTechZone')} clear placeholder="">所处高新区</InputItem>
-          <InputItem {...getFieldProps('registeredCapital')} clear placeholder="">注册资本</InputItem>
-          <InputItem {...getFieldProps('paidCapital')} clear placeholder="">实收资本</InputItem>
+          <InputItem {...getFieldProps('uniformCode')} clear placeholder="">统一社会信用代码:</InputItem>
+          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="">注册地址:</InputItem>
+          <InputItem {...getFieldProps('postalAdr')} clear placeholder="">通信地址:</InputItem>
+          <InputItem {...getFieldProps('cityArea')} clear placeholder="">所处市/区:</InputItem>
+          <InputItem {...getFieldProps('hiTechZone')} clear placeholder="">所处高新区:</InputItem>
+          <InputItem {...getFieldProps('registeredCapital')} clear placeholder="">注册资本:</InputItem>
+          <InputItem {...getFieldProps('paidCapital')} clear placeholder="">实收资本:</InputItem>
           <Picker data={this.state.enterpriseScaleOp} cols={1} {...getFieldProps('enterpriseScale')} className="forss">
-            <List.Item arrow="horizontal">企业规模</List.Item>
+            <List.Item arrow="horizontal">企业规模:</List.Item>
           </Picker>
-          <InputItem {...getFieldProps('legalPerson')} clear placeholder="">法定代表人</InputItem>
-          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="">法定代表人电话</InputItem>
-          <InputItem {...getFieldProps('contacts')} clear placeholder="">联系人</InputItem>
-          <InputItem {...getFieldProps('contactsTel')} clear placeholder="">联系人电话</InputItem>
+          <InputItem {...getFieldProps('legalPerson')} clear placeholder="">法定代表人:</InputItem>
+          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="">法定代表人电话:</InputItem>
+          <InputItem {...getFieldProps('contacts')} clear placeholder="">联系人:</InputItem>
+          <InputItem {...getFieldProps('contactsTel')} clear placeholder="">联系人电话:</InputItem>
           <TextareaItem
             {...getFieldProps('content')}
-            title="案情简介"
+            title="案情简介:"
             placeholder=""
             autoHeight
             labelNumber={5}
           />
-          <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
+        </div>
+          <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
       </div>
     )
   }

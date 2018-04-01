@@ -4,6 +4,7 @@ import { WeixinTitle } from 'react-weixin-title'
 import { Toast } from 'antd-mobile'
 
 import './plan.styl'
+import { openUrl } from '../../common/js/util'
 
 class Plan extends React.Component {
 
@@ -15,7 +16,7 @@ class Plan extends React.Component {
       return
     }
 
-    if (!component) window.location.href = item.path
+    if (!component) openUrl(item.path)
     else this.props.history.push(item.path)
   }
 

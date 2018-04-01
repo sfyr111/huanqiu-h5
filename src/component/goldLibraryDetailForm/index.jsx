@@ -84,32 +84,34 @@ class GoldLibraryDetailForm extends Component{
     const { getFieldProps } = this.props.form;
 
     return (
-      <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
-        <List>
-          <InputItem {...getFieldProps('name')} clear placeholder="">姓名</InputItem>
-          <Picker data={this.state.sexOption} cols={1} {...getFieldProps('calling')} className="forss">
-            <List.Item arrow="horizontal">称谓</List.Item>
-          </Picker>
-          <Picker data={this.state.areaOption} cols={1} {...getFieldProps('area')} className="forss">
-            <List.Item arrow="horizontal">地区</List.Item>
-          </Picker>
-          <InputItem {...getFieldProps('company')} clear placeholder="">所在单位</InputItem>
-          <InputItem {...getFieldProps('post')} clear placeholder="">职务</InputItem>
-          <InputItem {...getFieldProps('email')} clear placeholder="">邮箱地址</InputItem>
-          <InputItem {...getFieldProps('tel')} clear placeholder="">联系电话</InputItem>
-          <InputItem {...getFieldProps('companyAdr')} clear placeholder="">单位地址</InputItem>
-          <InputItem {...getFieldProps('experience')} clear placeholder="">从业经历</InputItem>
-          <InputItem {...getFieldProps('business')} clear placeholder="">擅长业务</InputItem>
-          <InputItem {...getFieldProps('skilledZone')} clear placeholder="">擅长领域 </InputItem>
-          <InputItem {...getFieldProps('qualified')} clear placeholder="">相关资格 </InputItem>
-          <Item><div>上传图片</div>
-            <ImagePicker files={this.state.imgHeadFiles} multiple={false} selectable={this.state.imgHeadFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgHeadFiles') }} />
-          </Item>
-          <Item><div>上传证明</div>
-            <ImagePicker files={this.state.imgCertFiles} multiple={false} selectable={this.state.imgCertFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgCertFiles') }} />
-          </Item>
-          <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
-        </List>
+      <div className='goldLibraryDetailForm-component' style={{ background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
+        <div className="form-content" style={{ height: '19.8666667rem', overflow: 'auto' }}>
+          <List>
+            <InputItem {...getFieldProps('name')} clear placeholder="">姓名:</InputItem>
+            <Picker data={this.state.sexOption} cols={1} {...getFieldProps('calling')} className="forss">
+              <List.Item arrow="horizontal">称谓:</List.Item>
+            </Picker>
+            <Picker data={this.state.areaOption} cols={1} {...getFieldProps('area')} className="forss">
+              <List.Item arrow="horizontal">地区:</List.Item>
+            </Picker>
+            <InputItem {...getFieldProps('company')} clear placeholder="">所在单位:</InputItem>
+            <InputItem {...getFieldProps('post')} clear placeholder="">职务:</InputItem>
+            <InputItem {...getFieldProps('email')} clear placeholder="">邮箱地址:</InputItem>
+            <InputItem {...getFieldProps('tel')} clear placeholder="">联系电话:</InputItem>
+            <InputItem {...getFieldProps('companyAdr')} clear placeholder="">单位地址:</InputItem>
+            <InputItem {...getFieldProps('experience')} clear placeholder="">从业经历:</InputItem>
+            <InputItem {...getFieldProps('business')} clear placeholder="">擅长业务:</InputItem>
+            <InputItem {...getFieldProps('skilledZone')} clear placeholder="">擅长领域:</InputItem>
+            <InputItem {...getFieldProps('qualified')} clear placeholder="">相关资格:</InputItem>
+            <Item><div>上传图片</div>
+              <ImagePicker files={this.state.imgHeadFiles} multiple={false} selectable={this.state.imgHeadFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgHeadFiles') }} />
+            </Item>
+            <Item><div>上传证明</div>
+              <ImagePicker files={this.state.imgCertFiles} multiple={false} selectable={this.state.imgCertFiles.length < 1} onChange={(files, type) => { this.onChange(files, type, 'imgCertFiles') }} />
+            </Item>
+          </List>
+        </div>
+        <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
       </div>
     )
   }

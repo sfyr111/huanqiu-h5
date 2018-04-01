@@ -37,7 +37,7 @@ class Mine extends React.Component {
           <div className="mine-content">
             <div className="background">
               <section className="avatar">
-                {/*<img src="http://temp.im/110x110/FF2D55/000" />*/}
+                <img src={require('./img/我的@2x.png')} alt='' width={110} />
                 <span onClick={() => this.props.history.push('/login')}>{this.state.userTel ? this.state.userTel : '登录'}</span>
               </section>
             </div>

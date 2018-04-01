@@ -82,24 +82,25 @@ class UnionForm extends Component{
     const { getFieldProps } = this.props.form;
 
     return (
-      <div className='goldLibraryDetailForm-component' style={{ overflow: 'auto', background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
+      <div className='goldLibraryDetailForm-component' style={{ background: '#fff', position: 'fixed', zIndex: 200, left: '0', right: '0', top: '0', bottom: '0' }}>
+        <div className="form-content" style={{ height: '19.8666667rem', overflow: 'auto' }}>
         <List>
-          <InputItem {...getFieldProps('companyName')} clear placeholder="">企业名称</InputItem>
-          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="">注册地</InputItem>
-          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="">注册时间</InputItem>
-          <InputItem {...getFieldProps('legalPerson')} clear placeholder="">主要负责人</InputItem>
-          <InputItem {...getFieldProps('uniformCode')} clear placeholder="">网址</InputItem>
-          <InputItem {...getFieldProps('postalAdr')} clear placeholder="">办公地址</InputItem>
-          <InputItem {...getFieldProps('applyName')} clear placeholder="">联系人</InputItem>
-          <InputItem {...getFieldProps('applyTel')} clear placeholder="">电话</InputItem>
-          <InputItem {...getFieldProps('applyEmail')} clear placeholder="">邮箱</InputItem>
-          <InputItem {...getFieldProps('lang')} clear placeholder="">工作语言</InputItem>
-          <InputItem {...getFieldProps('logoUrl')} clear placeholder="">主要业务</InputItem>
-          <InputItem {...getFieldProps('content')} clear placeholder="">擅长专业领域</InputItem>
-          <InputItem {...getFieldProps('patentInventions1')} clear placeholder="">专利代理人数量</InputItem>
-          <InputItem {...getFieldProps('patentNew1')} clear placeholder="">商标代理人数量</InputItem>
-          <InputItem {...getFieldProps('patentForeign1')} clear placeholder="">外国资质律师数量</InputItem>
-          <InputItem {...getFieldProps('patentDesign1')} clear placeholder="">其他专业人员数量</InputItem>
+          <InputItem {...getFieldProps('companyName')} clear placeholder="">企业名称:</InputItem>
+          <InputItem {...getFieldProps('registeredAdr')} clear placeholder="">注册地:</InputItem>
+          <InputItem {...getFieldProps('legalPersonTel')} clear placeholder="">注册时间:</InputItem>
+          <InputItem {...getFieldProps('legalPerson')} clear placeholder="">主要负责人:</InputItem>
+          <InputItem {...getFieldProps('uniformCode')} clear placeholder="">网址:</InputItem>
+          <InputItem {...getFieldProps('postalAdr')} clear placeholder="">办公地址:</InputItem>
+          <InputItem {...getFieldProps('applyName')} clear placeholder="">联系人:</InputItem>
+          <InputItem {...getFieldProps('applyTel')} clear placeholder="">电话:</InputItem>
+          <InputItem {...getFieldProps('applyEmail')} clear placeholder="">邮箱:</InputItem>
+          <InputItem {...getFieldProps('lang')} clear placeholder="">工作语言:</InputItem>
+          <InputItem {...getFieldProps('logoUrl')} clear placeholder="">主要业务:</InputItem>
+          <InputItem {...getFieldProps('content')} clear placeholder="">擅长专业领域:</InputItem>
+          <InputItem {...getFieldProps('patentInventions1')} clear placeholder="">专利代理人数量:</InputItem>
+          <InputItem {...getFieldProps('patentNew1')} clear placeholder="">商标代理人数量:</InputItem>
+          <InputItem {...getFieldProps('patentForeign1')} clear placeholder="">外国资质律师数量:</InputItem>
+          <InputItem {...getFieldProps('patentDesign1')} clear placeholder="">其他专业人员数量:</InputItem>
           <TextareaItem
             {...getFieldProps('declarationBrief')}
             title="近五年代理的知识产权申请情况"
@@ -114,8 +115,9 @@ class UnionForm extends Component{
             autoHeight
             labelNumber={5}
           />
-          <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
         </List>
+        </div>
+          <Button className='submit-btn' onClick={this.onSubmit}>提交</Button>
       </div>
     )
   }
