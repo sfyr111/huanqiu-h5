@@ -1,6 +1,9 @@
 import React from 'react'
 import { ImagePicker, WingBlank, SegmentedControl, Button } from 'antd-mobile';
 import axios from 'axios'
+
+import './test.styl'
+
 function isWeixinBrowser(){
   return /micromessenger/.test(navigator.userAgent.toLowerCase())
 }
@@ -13,7 +16,7 @@ class Test extends React.Component {
       multiple: false,
     }
 
-    alert(isWeixinBrowser())
+    // alert(isWeixinBrowser())
   }
 
   // 选择图片后上传
@@ -48,13 +51,13 @@ class Test extends React.Component {
   }
 
   componentDidMount() {
-    console.log(OSS)
   }
 
   render() {
     const { files } = this.state;
     return (
       <WingBlank>
+        <div className="test-item"></div>
         <SegmentedControl
           values={['切换到单选', '切换到多选']}
           selectedIndex={this.state.multiple ? 1 : 0}

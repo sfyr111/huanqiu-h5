@@ -17,7 +17,6 @@ import './index.styl'
 const history = createHistory()
 const middleware = routerMiddleware(history)
 
-
 const store = createStore(reducers, compose(
   applyMiddleware(thunk, middleware),
   persistState(),
