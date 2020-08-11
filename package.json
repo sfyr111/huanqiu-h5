@@ -82,7 +82,7 @@
     "redux-localstorage": "^0.4.1",
     "redux-thunk": "^2.2.0",
     "remarkable": "^1.7.1",
-    "serialize-javascript": "^1.4.0",
+    "serialize-javascript": "^3.1.0",
     "serve-favicon": "~2.4.5",
     "style-loader": "0.18.2",
     "stylus-px2rem": "^1.0.14",
